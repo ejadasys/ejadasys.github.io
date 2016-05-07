@@ -81,7 +81,7 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
     font-size: 35px;
     margin-bottom: 5px;
 }
-.iconBlock{box-shadow: 0px 1px 4px -1px rgba(173,171,173,1);border-radius:5px!important;width: 200px;-webkit-box-shadow: 0px 1px 4px -1px rgba(173,171,173,1);background-color: #EAEAEA;margin-right:20px;min-height: 58px;color:#ffffff;margin-left:20px;border-width:1px;border:1px solid;-moz-box-shadow:0px 6px 15px -1px rgba(173,171,173,1);position: relative;border: none;height: auto;}
+.iconBlock{box-shadow: 0px 1px 4px -1px rgba(173,171,173,1);border-radius:5px!important;width: 200px;-webkit-box-shadow: 0px 1px 4px -1px rgba(173,171,173,1);background-color: #EAEAEA;margin-right:20px;min-height: 58px;color:#ffffff;margin-left:20px;border-width:1px;border:1px solid;-moz-box-shadow:0px 6px 15px -1px rgba(173,171,173,1);position: relative;border: none;height: auto;margin-bottom: 20px;}
 .iconBlock div.x1a a.xh7{
     background: #E2E2E2;
     display: block;
@@ -124,7 +124,7 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconBlock:hover{background:#712c81 !important; }
 .iconBlock:hover a, .iconBlock:hover a.xh7:before{color: #fff !important;}
 
-.subIconBlock{margin: -229px 0 0px 243px;width: 74%;position: absolute;}
+.subIconBlock{margin: -308px 0 0px 243px;width: 98%;position: relative;}
 
 .mainTable2{
     background-color: transparent !important;
