@@ -124,12 +124,13 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconBlock:hover{background:#712c81 !important; }
 .iconBlock:hover a, .iconBlock:hover a.xh7:before{color: #fff !important;}
 
-.subIconBlock{margin: 11px 0 0 20px;width: 80%;position: relative;}
+.subIconBlock{margin: -229px 0 0px 243px;width: 74%;position: absolute;}
 
 .mainTable2{
     background-color: transparent !important;
     border-collapse: separate;
     border-spacing: 10px;
 }
-.mainTable2 td:nth-of-type(1), .mainTable2 td:nth-of-type(3), .mainTable2 td:nth-of-type(1) .feeds-panel, .mainTable2 td:nth-of-type(1) .x2n6{background:#fff !important;}
+.mainTable2 td:nth-of-type(1), .mainTable2 td:nth-of-type(3), .mainTable2 td:nth-of-type(1) .feeds-panel, .mainTable2 td:nth-of-type(1) .x2n6{background:#fff !important;position: relative;}
 .iconRow {width:100%}
+.mainTable2 td:nth-of-type(1){width:200px;}
