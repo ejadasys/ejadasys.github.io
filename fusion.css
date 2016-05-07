@@ -90,10 +90,11 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
     position: absolute;
     left: 0;
 }
+.iconBlock:hover div.x1a a.xh7{background: #DD4381;border-radius: 5px 0 0 5px;}
 .iconBlock div.iconText{
     position: absolute;
     float: left;
-    left: 55px;
+    left: 60px;
     margin-right: 5px;
     top: 16px;
 }
@@ -121,8 +122,8 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(4)  .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(4) .iconBlock a.xh7:before{content:'\f0e8'}
 
 .iconBlock:hover{background:#712c81 !important; }
-.iconBlock:hover a{color: #fff !important;}
-.iconBlock:hover a.xh7:before{color: #B74286 !important;}
+.iconBlock:hover a, .iconBlock:hover a.xh7:before{color: #fff !important;}
+
 .subIconBlock{margin: 11px 0 0 20px;width: 80%;position: relative;}
 
 .mainTable2{
