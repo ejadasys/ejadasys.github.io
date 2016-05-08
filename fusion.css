@@ -195,3 +195,5 @@ body{background-attachment: inherit!important;}
 
 .feeds-front-top-panel img {border:solid 1px #666!important;}
 
+.xi0 table .x1a td:nth-of-type(1){display:none;}
+.xi0 table .x1a{width: 100%;}
