@@ -144,7 +144,7 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 }
 .mainTable2 td:nth-of-type(1), .mainTable2 td:nth-of-type(3), .mainTable2 td:nth-of-type(1) .feeds-panel, .mainTable2 td:nth-of-type(1) .x2n6{background:#fff !important;position: relative;}
 .iconRow {width:100%;}
-.mainTable2 td:nth-of-type(1){width:200px;}
+.mainTable2 td:nth-of-type(1){width:200px;background:transparent!important;}
 .subIconBlock  table.x1a  tr td:nth-of-type(1){width:auto;}
 
 :lang(ar) .subIconBlock {
@@ -184,7 +184,9 @@ box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
     min-height: 505px;
     width:300px!important;
 }
-    .feeds-front-top-panel, .x2n7 { }
+    .feeds-front-top-panel, .x2n7 {border-radius: 0!important;
+    border: 0;
+background-color: #E1E1E1; }
 
 .announcements-panel, .x2hk{width:311px!important;}
 =======
