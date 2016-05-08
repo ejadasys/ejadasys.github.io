@@ -30,8 +30,8 @@
 }
 
 body{font-family: "Conv_STC-Regular",arial, sans-serif !important}
-a{font-family: "Conv_STC-Regular",arial, sans-serif !important;color:#555555;}
-a:hover{color:#222222}
+a{font-family: "Conv_STC-Regular",arial, sans-serif !important;color:#555555 !important;}
+a:hover{color:#222222 !important;}
 .container{width:980px;margin:0 auto;display: table;border-collapse: separate;border-spacing: 10px;}
 .announcement_container, .main_container {display:table-cell;background:#fff;padding:10px;vertical-align:top;}
 .announcement_container{width:30%;}
