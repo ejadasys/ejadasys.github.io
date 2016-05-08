@@ -171,3 +171,4 @@ box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
 
 :lang(ar) .iconBlock div.iconText{text-align:right}
 .subIconBlock .x1a {width:100%;}
+.subIconBlock .x1a td {width:24%;padding:0 10px;}
