@@ -175,3 +175,11 @@ box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
 
 
 .feeds-front-top-panel img {border:solid 1px #666!important;}
+
+.feeds-panel, .x2n6 {
+   
+    padding: 15px!important;
+    border-radius: 5px;
+    min-height: 505px;
+    width:300px!important;
+}
