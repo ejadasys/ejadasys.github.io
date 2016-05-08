@@ -156,5 +156,7 @@ body{background-attachment: inherit!important;}
 
 .blockL2{width: 125px;}
 
-.blockL2:hover{background-color:red;}
+.blockL2:hover{background-color:#D5BAD8;border-radius: 5px;-webkit-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
+-moz-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
+box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
 
