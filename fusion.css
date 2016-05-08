@@ -94,9 +94,10 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconBlock div.iconText{
     position: absolute;
     float: left;
-    left: 60px;
+    left: 55px;
     margin-right: 5px;
     top: 16px;
+    text-align: left;
 }
 .iconBlock img{display:none !important; }
 .iconBlock a.xh7:before{
@@ -166,3 +167,4 @@ box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
     .blockL2 a{line-height: 15px;} 
     
 
+:lang(ar) .iconBlock div.iconText{text-align:right}
