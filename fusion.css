@@ -164,7 +164,8 @@ box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
 
     
     
-    .blockL2 a{line-height: 15px;color:#fff;} 
+    .blockL2 a{line-height: 15px;} 
+        .blockL2 a:hover{color:#fff;} 
     
 
 :lang(ar) .iconBlock div.iconText{text-align:right}
