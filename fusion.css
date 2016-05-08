@@ -90,7 +90,7 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
     position: absolute;
     left: 0;
 }
-.iconBlock:hover div.x1a a.xh7{background: #DD4381;border-radius: 5px 0 0 5px;}
+.iconBlock:hover div.x1a a.xh7, .iconBlock.active div.x1a a.xh7{background: #DD4381;border-radius: 5px 0 0 5px;}
 .iconBlock div.iconText{
     position: absolute;
     float: left;
@@ -132,8 +132,9 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconDiv div:nth-of-type(6) div:nth-of-type(4)  .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) div:nth-of-type(4) .iconBlock a.xh7:before{content:'\f0e8'}
 
 
-.iconBlock:hover{background:#712c81 !important; }
-.iconBlock:hover a, .iconBlock:hover a.xh7:before{color: #fff !important;}
+.iconBlock:hover, .iconBlock.active{background:#712c81 !important; }
+.iconBlock:hover a, .iconBlock:hover a.xh7:before, .iconBlock.active a, .iconBlock.active a.xh7:before{color: #fff !important;}
+.iconBlock.active:after{content:'';border: solid 10px transparent;border-left-color: #712C81;position: absolute;right: -19px;top: 30%;}
 
 .subIconBlock{margin: -310px 0 0px 235px;width: 70%;position: absolute;}
 
@@ -159,15 +160,15 @@ body{background-attachment: inherit!important;}
     box-sizing: border-box;min-width:100%;}
 
 .blockL2:hover{background-color:#DD4381;border-radius: 5px;-webkit-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
--moz-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
+    -moz-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
+    box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
 
-    
-    
-    .blockL2 a{line-height: 15px;} 
-        .blockL2 a:hover{color:#fff;} 
-        .blockL2:hover a{color:#fff;} 
-    
+
+
+.blockL2 a{line-height: 15px;}
+.blockL2 a:hover{color:#fff;}
+.blockL2:hover a{color:#fff;}
+
 
 :lang(ar) .iconBlock div.iconText{text-align:right}
 .subIconBlock .x1a table {width:100%;}
