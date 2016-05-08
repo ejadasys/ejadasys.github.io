@@ -199,4 +199,6 @@ body{background-attachment: inherit!important;}
 .xi0 table.x1a{width: 100%;}
 .xi0 table.x1a td{border-collapse:collapse;}
 .xi0 table.x1a:hover{width: 100%;background-color:#F8F8F8;}
+.xi0 table.x1a a:hover{color:#F36;}
+
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
