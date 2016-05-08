@@ -151,3 +151,5 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
     width: 74%;
     position: absolute;
 }
+
+body{background-attachment: inherit!important;}
