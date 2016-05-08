@@ -158,13 +158,13 @@ body{background-attachment: inherit!important;}
 .blockL2{width: 125px;padding: 0 5px;
     box-sizing: border-box;}
 
-.blockL2:hover{background-color:#D5BAD8;border-radius: 5px;-webkit-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
+.blockL2:hover{background-color:#DD4381;border-radius: 5px;-webkit-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
 -moz-box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);
 box-shadow: 2px 4px 28px -9px rgba(79,47,204,0.65);}
 
     
     
-    .blockL2 a{line-height: 15px;} 
+    .blockL2 a{line-height: 15px;color:#fff;} 
     
 
 :lang(ar) .iconBlock div.iconText{text-align:right}
