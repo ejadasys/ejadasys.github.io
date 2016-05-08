@@ -153,3 +153,8 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 }
 
 body{background-attachment: inherit!important;}
+
+.blockL2{width: 125px;}
+
+.blockL2:hover{background-color:red;}
+
