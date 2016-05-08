@@ -20,11 +20,11 @@
 
         loadCSS("https://ejadasys.github.io/fusion.css");
 
-        $('.iconBlock').click(function(){
-            $('.iconBlock').removeClass('active');
-            $(this).addClass('active');
-        })
+        $('.iconBlock a.xh7').click(function(){
 
+            $('.iconBlock').removeClass('active');
+            $(this).parents('.iconBlock').addClass('active');
+        })
     });
 
 </script>
