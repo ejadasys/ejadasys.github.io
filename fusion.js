@@ -1,6 +1,4 @@
-/**
- * Created by mohammadsamak on 5/8/16.
- */
+
 jQuery(document).ready(function($){
     loadCSS = function(href) {
         var cssLink = $("<link rel='stylesheet' type='text/css' href='"+href+"'>");
