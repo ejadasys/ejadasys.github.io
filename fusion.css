@@ -134,7 +134,7 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconBlock:hover{background:#712c81 !important; }
 .iconBlock:hover a, .iconBlock:hover a.xh7:before{color: #fff !important;}
 
-.subIconBlock{margin: -308px 0 0px 243px;width: 74%;position: absolute;}
+.subIconBlock{margin: -310px 0 0px 235px;width: 70%;position: absolute;}
 
 .mainTable2{
     background-color: transparent !important;
@@ -148,7 +148,7 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 
 :lang(ar) .subIconBlock {
     margin: -310px 227px 0px 243px;
-    width: 74%;
+    width: 70%;
     position: absolute;
 }
 
