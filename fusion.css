@@ -167,8 +167,7 @@ body{background-attachment: inherit!important;}
 
 
 .blockL2 a{line-height: 15px;}
-.blockL2 a:hover{color:#fff;}
-.blockL2:hover a{color:#fff;}
+.blockL2:hover a, .blockL2 a:hover{color:#fff !important;}
 
 
 :lang(ar) .iconBlock div.iconText{text-align:right}
