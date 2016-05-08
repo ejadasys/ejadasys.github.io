@@ -145,3 +145,9 @@ a{font-family: "Conv_STC-Regular",arial, sans-serif !important}
 .iconRow {width:100%;}
 .mainTable2 td:nth-of-type(1){width:200px;}
 .subIconBlock  table.x1a  tr td:nth-of-type(1){width:auto;}
+
+:lang(ar) .subIconBlock {
+    margin: -310px 227px 0px 243px;
+    width: 74%;
+    position: absolute;
+}
