@@ -179,17 +179,17 @@ body{background-attachment: inherit!important;}
 .feeds-front-top-panel img {border:solid 1px #666!important;}
 
 .feeds-panel, .x2n6 {
-   
+
     padding:0px!important;
     border-radius: 5px;
     min-height: 505px;
     width:300px!important;
 }
-    .feeds-front-top-panel, .x2n7 
-    {
-     border-radius: 0!important;
+.feeds-front-top-panel, .x2n7
+{
+    border-radius: 0!important;
     border: 0;
-				background-color: #E1E1E1; }
+    background-color: #E1E1E1; }
 
 .announcements-panel, .x2hk{width:311px!important;}
 
@@ -214,19 +214,18 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de div a:before{
     color: #6F2A80;
     font-size: 24px;
     display: block;
-    margin-bottom: 5px;
-    margin-top: 12px;
+    margin: 12px;
 }
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content:''}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(3) div a:before{content:''}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(4) div a:before{content:''}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(5) div a:before{content:''}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content: '\f015';}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(3) div a:before{content: '\f006';}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(4) div a:before{content: '\f11d';}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(5) div a:before{content: '\f0a2';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(6) div a:before{content:''}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before{content:''}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before{content: '\f29c';}
 
 
 
-.AFBrandingBarLogo{}
+.AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png') !important;max-width:25px !important;width:235px !important;height:60px !important;}
 
 
 /*---------------------------------------------------------------*/
@@ -256,12 +255,12 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 }
 
 :lang(ar) #EnLinks {
- display:none;
-  
+    display:none;
+
 }
 
 :lang(en) #ArLinks {
- display:none;
-  
+    display:none;
+
 }
 
