@@ -203,8 +203,8 @@ body{background-attachment: inherit!important;}
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
 
 /*Changing the header icons */
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de div a img{display:none;}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de div a:before{
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a img{display:none;}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:before{
     content:'';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -220,17 +220,17 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(3) div a:before{content: '\f006';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(4) div a:before{content: '\f11d';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(5) div a:before{content: '\f0a2';}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(6) div a:before{content:''}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(6) a:before{content: '\f29a';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before{content: '\f29c';}
 
 
 
-.AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png') !important;max-width:25px !important;width:235px !important;height:60px !important;}
+.AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png') !important;max-width: 250px !important;width:235px !important;height:60px !important;}
 
 
 /*---------------------------------------------------------------*/
 
-.mainHeaderLinks{width:500px;}
+.mainHeaderLinks{width:500px;position: relative;z-index: 20000;margin-top: 18px;}
 .mainHeaderLinks nav li:not(:first-child) a {
     position: relative;
     display: inline-block;
