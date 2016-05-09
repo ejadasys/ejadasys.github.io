@@ -216,4 +216,44 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de div a:before{
     display: block;
     margin-bottom: 5px;
     margin-top: 12px;
+}.UnifiedNavigatorItem, .xi5{margin-top:5px;}
+
+.AFBrandingBarLogo{}
+
+
+/*---------------------------------------------------------------*/
+
+.mainHeaderLinks{width:500px;}
+.mainHeaderLinks nav li:not(:first-child) a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+.mainHeaderLinks nav ul {
+    list-style: none;
+    float: right;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.mainHeaderLinks nav ul li {
+    float: right;
+    padding: 1px 8px 0 9px;
+    font-size: 18px;
+}
+
+:lang(ar) #EnLinks {
+ display:none;
+  
+}
+
+:lang(en) #ArLinks {
+ display:none;
+  
+}
+
