@@ -202,3 +202,43 @@ body{background-attachment: inherit!important;}
 .xi0 table.x1a a:hover{color:# F34B93!important;}
 
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
+
+.AFBrandingBarLogo{}
+
+
+/*---------------------------------------------------------------*/
+
+.mainHeaderLinks{width:500px;}
+.mainHeaderLinks nav li:not(:first-child) a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.mainHeaderLinks nav ul {
+    list-style: none;
+    float: right;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.mainHeaderLinks nav ul li {
+    float: right;
+    padding: 1px 8px 0 9px;
+    font-size: 18px;
+}
+
+:lang(ar) #EnLinks {
+ display:none;
+  
+}
+
+:lang(en) #ArLinks {
+ display:none;
+  
+}
+
