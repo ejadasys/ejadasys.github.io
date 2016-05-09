@@ -200,5 +200,20 @@ body{background-attachment: inherit!important;}
 .xi0 table.x1a td{border-collapse:collapse;}
 .xi0 table.x1a:hover{width: 100%;background-color:#F8F8F8;}
 .xi0 table.x1a a:hover{color:# F34B93!important;}
-
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
+
+/*Changing the header icons */
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de div a img{display:none;}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de div a:before{
+    content:'';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #6F2A80;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
