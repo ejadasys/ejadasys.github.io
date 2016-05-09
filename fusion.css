@@ -203,6 +203,8 @@ body{background-attachment: inherit!important;}
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
 
 /*Changing the header icons */
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a{display:block;text-decoration: none !important;opacity:0.8}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:hover{opacity:1}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a img{display:none;}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:before{
     content:'';
@@ -211,7 +213,7 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:before{
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #6F2A80;
+    color: #6D277D;
     font-size: 24px;
     display: block;
     margin: 12px;
