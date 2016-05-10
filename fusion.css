@@ -259,12 +259,12 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
     font-size: 18px;
 }
 
-:lang(ar) #EnLinks {
+:lang(ar) div#ENLinks {
     display:none;
 
 }
 
-:lang(en) #ArLinks {
+:lang(en) div#ArLinks {
     display:none;
 
 }
