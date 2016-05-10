@@ -231,7 +231,8 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 .AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png') !important;max-width: 250px !important;width:235px !important;height:60px !important;}
 
 
-
+:lang(ar) .AFBrandingBarLogo, .xhh{
+ background-image:url('images/STC-Logo_igate_Ar.png') !important;max-width: 250px !important;width:235px !important;height:60px !important;}
 
 /*---------------------------------------------------------------*/
 
@@ -273,8 +274,7 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 .AFBrandingBar, .x1de {padding-left: 0px!important; }
 
 
-:lang(ar) .AFBrandingBarLogo{
- background-image:url('images/STC-Logo_igate_Ar.png') !important;max-width: 250px !important;width:235px !important;height:60px !important;}
+
  
  :lang(ar) .dateIssue table.x1a td:nth-of-type(1) {display:none;}
 
