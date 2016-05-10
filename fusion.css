@@ -278,3 +278,5 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
  :lang(ar) .dateIssue table.x1a td:nth-of-type(1) {display:none;}
 
  .mainHeaderLinks nav li:not(:last-child) a {text-decoration:none;}
+ 
+ .x1bs.p_AFStrip .x1bt.p_AFSelected, .x1bs.p_AFStrip .x1bt{font-family: "Conv_STC-Regular",arial, sans-serif !important;font-size:18px;}
