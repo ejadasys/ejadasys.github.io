@@ -280,10 +280,14 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 
  .mainHeaderLinks nav li:not(:last-child) a {text-decoration:none;}
  
- .x1bs.p_AFStrip .x1bt.p_AFSelected, .x1bs.p_AFStrip .x1bt{font-family: "Conv_STC-Regular",arial, sans-serif !important;font-size:18px;}
+ .x1bs.p_AFStrip .x1bt.p_AFSelected, .x1bs.p_AFStrip .x1bt{font-family: "Conv_STC-Regular",arial, sans-serif !important;font-size:16px;}
 
 
 .xba, .xm4, HTML BODY .xnj.xni, HTML BODY .x11s.xni, HTML BODY .xis.xni, HTML BODY .x11o.xni, HTML BODY .xxt.xni, HTML BODY .x7j.xni, HTML BODY .x10y.xni, HTML BODY .x11p.xni, HTML BODY .x10v.xni, HTML BODY .x7k.xni, HTML BODY .xhf.xni, HTML BODY .xhn.xni, HTML BODY .xqk.xni, HTML BODY .x1q.xni, HTML BODY .x1r.xni, HTML BODY .x1s.xni, HTML BODY .x11t.xni, HTML BODY .x11u.xni, HTML BODY .x1u.xni, HTML BODY .x1b.xni, HTML BODY .xp7.xni, HTML BODY .x11v.xni, HTML BODY .x11m.xni, HTML BODY .x10x.xni, HTML BODY .x1a.xni, HTML BODY .x19.xni, HTML BODY .x6v.xni, HTML BODY .x11w.xni, HTML BODY .xe0.xni, HTML BODY .x11n.xni, HTML BODY .xo6.xni, HTML BODY .xhg.xni, HTML BODY .x7l.xni, HTML BODY .xn0.xni, HTML BODY .xtp.xni, HTML BODY .x1z.xni, HTML BODY .x6w.xni, HTML BODY .xe3.xni, HTML BODY .x11x.xni, HTML BODY .xll.xni, HTML BODY .x11y.xni, HTML BODY .x11z.xni, HTML BODY .x11s.x11r, HTML BODY .xis.x11r, HTML BODY .x11o.x11r, HTML BODY .xxt.x11r, HTML BODY .x7j.x11r, HTML BODY .x10y.x11r, HTML BODY .x11p.x11r, HTML BODY .x10v.x11r, HTML BODY .x7k.x11r, HTML BODY .xhf.x11r, HTML BODY .xhn.x11r, HTML BODY .xqk.x11r, HTML BODY .x1q.x11r, HTML BODY .x1r.x11r, HTML BODY .x1s.x11r, HTML BODY .x11t.x11r, HTML BODY .x11u.x11r, HTML BODY .x1u.x11r, HTML BODY .x1b.x11r, HTML BODY .xp7.x11r, HTML BODY .x11v.x11r, HTML BODY .x11m.x11r, HTML BODY .x10x.x11r, HTML BODY .x1a.x11r, HTML BODY .x19.x11r, HTML BODY .x6v.x11r, HTML BODY .x11w.x11r, HTML BODY .xe0.x11r, HTML BODY .x11n.x11r, HTML BODY .xo6.x11r, HTML BODY .xhg.x11r, HTML BODY .x7l.x11r, HTML BODY .xn0.x11r, HTML BODY .xtp.x11r, HTML BODY .x1z.x11r, HTML BODY .x6w.x11r, HTML BODY .xe3.x11r, HTML BODY .x11x.x11r, HTML BODY .xll.x11r, HTML BODY .x11y.x11r, HTML BODY .x11z.x11r, .x18t, .x18u, .x18v, .xvn .x1dj, .x1du .x1ep, .x1kf, HTML BODY .x1pv.xni, HTML BODY .x1pv.x11r, HTML BODY .x1sz.xni, HTML BODY .x1sz.x11r, HTML BODY .x1tf.xni, HTML BODY .x1tf.x11r, HTML BODY .x1z0.xni, HTML BODY .x1z1.xni, HTML BODY .x1z2.xni, HTML BODY .x1z3.xni, HTML BODY .x1z0.x11r, HTML BODY .x1z1.x11r, HTML BODY .x1z2.x11r, HTML BODY .x1z3.x11r, HTML BODY .x1zj.xni, HTML BODY .x1zj.x11r, HTML BODY .x210.xni, HTML BODY .xij.xni, HTML BODY .x210.x11r, HTML BODY .xij.x11r, HTML BODY .x21q.xni, HTML BODY .x21r.xni, HTML BODY .x21q.x11r, HTML BODY .x21r.x11r, .x21r, HTML BODY .x23o.xni, HTML BODY .x23p.xni, HTML BODY .x23o.x11r, HTML BODY .x23p.x11r, HTML BODY .x26w.xni, HTML BODY .x26w.x11r, HTML BODY .x26y.xni, HTML BODY .x26y.x11r, HTML BODY .x274.xni, HTML BODY .x274.x11r, HTML BODY .x28u.xni, HTML BODY .x28u.x11r, .xsd > table:first-child {
     width: 100%;
     line-height: 15px;
+}
+
+table .x2ob h1.xp8 {
+    height: 30px;
 }
