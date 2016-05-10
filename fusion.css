@@ -230,9 +230,12 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 .AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png') !important;max-width: 250px !important;width:235px !important;height:60px !important;}
 
 
+:lang(ar).AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo_igate_Ar.png') !important;max-width: 250px !important;width:235px !important;height:60px !important;}
+
+
 /*---------------------------------------------------------------*/
 
-.mainHeaderLinks{width:500px;position: relative;z-index: 20000;margin-top: 18px;}
+.mainHeaderLinks{width:420px;position: relative;z-index: 20000;margin-top: 18px;}
 .mainHeaderLinks nav li:not(:first-child) a {
     position: relative;
     display: inline-block;
