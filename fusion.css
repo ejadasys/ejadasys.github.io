@@ -135,7 +135,7 @@ a:hover{color:#222222 !important;}
 
 .iconBlock:hover, .iconBlock.active{background:#712c81 !important; }
 .iconBlock:hover a, .iconBlock:hover a.xh7:before, .iconBlock.active a, .iconBlock.active a.xh7:before{color: #fff !important;}
-.iconBlock.active:after{content:'';border: solid 10px transparent;border-left-color: #712C81;position: absolute;right: -19px;top: 30%;}
+.iconBlock.active:after{content:'';/*border: solid 10px transparent;border-left-color: #712C81;position: absolute;right: -19px;top: 30%;*/}
 
 .subIconBlock{margin: -310px 0 0px 235px;width: 70%;position: absolute;}
 
