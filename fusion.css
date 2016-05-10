@@ -199,7 +199,7 @@ body{background-attachment: inherit!important;}
 .xi0 table.x1a{width: 100%;}
 .xi0 table.x1a td{border-collapse:collapse;}
 .xi0 table.x1a:hover{width: 100%;background-color:#F8F8F8;}
-.xi0 table.x1a a:hover{color:# F34B93!important;}
+.xi0 table.x1a a:hover{color:#F34B93!important;}
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
 
 /*Changing the header icons */
@@ -266,3 +266,9 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 
 }
 
+HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
+.InfoTileSelectorV.p_AFSelected, .xkz.p_AFSelected, .InfoTileSelectorH.p_AFSelected, .xl0.p_AFSelected, .InfoTileSelectorV.p_AFSelected .InfoTileSelIcon:hover, .xkz.p_AFSelected .xl1:hover, .InfoTileSelectorH.p_AFSelected .InfoTileSelIcon:hover, .xl0.p_AFSelected .xl1:hover, .InfoTileSelIcon:hover:active, .xl1:hover:active{
+    background: #712C81;
+}
+
+}
