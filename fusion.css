@@ -263,9 +263,12 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
     display:none;
 
 }
+:lang(ar).mainHeaderLinks{   margin-top: 15px; margin-right: 50px;}
 
 :lang(en) div#ArLinks {
     display:none;
 
 }
+
+.AFBrandingBar, .x1de {padding-left: 0px; }
 
