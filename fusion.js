@@ -17,12 +17,12 @@ jQuery(document).ready(function($){
         alert('sd')
         $(this).data('ak', $(this).attr('accesskey')).removeAttr('accesskey')
     })
-   $('button').each(function(){
+   /*$('button').each(function(){
         // alert($(this).text())
         $(this).text($(this).text());
        $(this).prop('accesskey','');
 
     })
-
+*/
 
 });
