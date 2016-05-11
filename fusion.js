@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
         $(this).parents('.iconBlock').toggleClass('active');
     })
     //$('span.x1fa').text($('span.x1fa').text())
-    $('button').removeAttribute('accesskey');
+    $('button, a').removeAttr('accesskey');
 
 
 });
