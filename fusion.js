@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
     })
     //$('span.x1fa').text($('span.x1fa').text())
    $('button').each(function(){
-       alert($(this).text())
+      $(this).removeProp('accesskey');
    })
 
 
