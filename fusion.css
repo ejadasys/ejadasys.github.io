@@ -1,4 +1,4 @@
-@import url("https://fontawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css");
+@import url("font-awesome.css");
 @font-face {
     font-family: 'Conv_STC-Bold';
     src: url("fonts/STC-Bold.eot");
@@ -225,7 +225,7 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(4) div a:before
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(5) div a:before{content: '\f0a2';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(6) a:before{content: '\f29a';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before{content: '\f29c';}
-sss{}
+s
 
 
 :lang(en) .AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png');max-width: 250px !important;width:235px !important;height:60px !important;}
