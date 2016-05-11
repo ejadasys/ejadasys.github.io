@@ -288,15 +288,16 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
     line-height: 15px;
 }
 
-/*table .x2ob h1.xp8 {
-    height: 30px;
-}*/
+table .x2ob h1.xp8 {
 
-HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
     color: #712c81;
     text-transform: uppercase;
     font-size: 19px;
-}HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
+}
+
+HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
+
+HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
 .InfoTileSelectorV.p_AFSelected, .xkz.p_AFSelected, .InfoTileSelectorH.p_AFSelected, .xl0.p_AFSelected, .InfoTileSelectorV.p_AFSelected .InfoTileSelIcon:hover, .xkz.p_AFSelected .xl1:hover, .InfoTileSelectorH.p_AFSelected .InfoTileSelIcon:hover, .xl0.p_AFSelected .xl1:hover, .InfoTileSelIcon:hover:active, .xl1:hover:active{
     background: #712C81;
 }
@@ -321,9 +322,9 @@ div.xln span.xh6{
 }
 .xni.xp7{border:none}
 .x5s.p_AFCore.p_AFDefault span{color: #712C81;font-size: 22px;text-transform: uppercase;font-weight: normal;}
-<<<<<<< HEAD
+
 .topPartInfo {background-color: #FDF9FD;border-radius: 5px;}
-=======
+
 .x5s.p_AFCore.p_AFDefault span{color: #712C81;font-size: 19px;text-transform: uppercase;font-weight: normal;}
 .x5s.p_AFCore.p_AFDefault table a {background:#712c81;font-size:13px;display: block;padding: 18px 10px;border-radius: 5px;color: #fff;text-decoration: none;transition:all ease 300ms}
 .x5s.p_AFCore.p_AFDefault table a span{color:#fff;font-size:15px}
@@ -336,7 +337,7 @@ div.xln span.xh6{
     color: #712c81;
 }
 div.xe8,div.xe8:hover{border:none;background:none;}
->>>>>>> origin/master
+
 div.xe8{border:none;background:none;}
 .x1ju, .xej{border-radius: 5px;}
 .x1jx, .x1jy, .x1jv, .x1jw, .x1jz, .x1k0, .x1kb,.x1k9, .x1kd{border-color:#b5b5b5;}
