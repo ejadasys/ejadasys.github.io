@@ -228,12 +228,12 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 
 
 
-:lang(en) .AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png');max-width: 250px !important;width:235px !important;height:60px !important;}
+/*:lang(en) .AFBrandingBarLogo, .xhh{background-image:url('images/STC-Logo.png');max-width: 250px !important;width:235px !important;height:60px !important;}
 
 
 :lang(ar) .AFBrandingBarLogo, .xhh{
     background-image:url('images/STC-Logo_igate_Ar.png');max-width: 250px !important;width:235px !important;height:60px !important;}
-
+*/
 /*---------------------------------------------------------------*/
 
 .mainHeaderLinks{width:420px;position: relative;z-index: 20000;margin-top: 18px;}
@@ -292,7 +292,7 @@ table .x2ob h1.xp8 {
 
     color: #712c81;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
@@ -331,11 +331,13 @@ div.xln span.xh6{
 .x5s.p_AFCore.p_AFDefault table a:hover{background:#da407f;}
 .x1f9 {
 
-    padding: 10px;
-    border-radius: 5px;
-    background: #f3f3f3;
-    color: #712c81;
+    background-color: #da407f;
+    border-radius: 0px;
+    border: 1px solid #da4280;
+    color:#ffffff;
 }
+
+
 div.xe8,div.xe8:hover{border:none;background:none;}
 
 div.xe8{border:none;background:none;}
@@ -360,3 +362,4 @@ div.xe8{border:none;background:none;}
 .x1kp a:hover{color: #fff !important;background: #da4584;}
 .x166, .x167{width:400px !important;max-width: 500px !important;}
 
+.xp8, .xp9, .xpa {line-height:20px;    font-size: 16px;}
