@@ -12,4 +12,8 @@ jQuery(document).ready(function($){
         $('.iconBlock').removeClass('active');
         $(this).parents('.iconBlock').toggleClass('active');
     })
+    //$('span.x1fa').text($('span.x1fa').text())
+    $('button').removeAttribute('accesskey');
+
+
 });
