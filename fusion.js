@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
     })
     //$('span.x1fa').text($('span.x1fa').text())
     ak = $('[accesskey]').each(function() {
-        alert('sd')
+
         $(this).data('ak', $(this).attr('accesskey')).removeAttr('accesskey')
     })
    /*$('button').each(function(){
