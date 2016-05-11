@@ -13,7 +13,10 @@ jQuery(document).ready(function($){
         $(this).parents('.iconBlock').toggleClass('active');
     })
     //$('span.x1fa').text($('span.x1fa').text())
-    $('[accesskey*=]').attr('accesskey','');
+    ak = $('[accesskey]').each(function() {
+        alert('sd')
+        $(this).data('ak', $(this).attr('accesskey')).removeAttr('accesskey')
+    })
    $('button').each(function(){
         // alert($(this).text())
         $(this).text($(this).text());
