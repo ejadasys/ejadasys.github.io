@@ -329,13 +329,15 @@ div.xln span.xh6{
 .x5s.p_AFCore.p_AFDefault table a {background:#712c81;font-size:13px;display: block;padding: 18px 10px;border-radius: 5px;color: #fff;text-decoration: none;transition:all ease 300ms}
 .x5s.p_AFCore.p_AFDefault table a span{color:#fff;font-size:15px}
 .x5s.p_AFCore.p_AFDefault table a:hover{background:#da407f;}
-/*.x1f9 {
+.x1f9 {
 
     padding: 10px;
     border-radius: 5px;
     background: #f3f3f3;
     color: #712c81;
-}*/
+}
+
+
 div.xe8,div.xe8:hover{border:none;background:none;}
 
 div.xe8{border:none;background:none;}
