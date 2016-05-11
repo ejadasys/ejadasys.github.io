@@ -290,12 +290,15 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(7) div a:before
 
 table .x2ob h1.xp8 {
     height: 30px;
+    color: #712c81;
+    text-transform: uppercase;
+    font-size: 19px;
 }HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
 .InfoTileSelectorV.p_AFSelected, .xkz.p_AFSelected, .InfoTileSelectorH.p_AFSelected, .xl0.p_AFSelected, .InfoTileSelectorV.p_AFSelected .InfoTileSelIcon:hover, .xkz.p_AFSelected .xl1:hover, .InfoTileSelectorH.p_AFSelected .InfoTileSelIcon:hover, .xl0.p_AFSelected .xl1:hover, .InfoTileSelIcon:hover:active, .xl1:hover:active{
     background: #712C81;
 }
 .AFLinkColor.xhu.x2fv.xhb{color: #DA427F;font-size:20px;margin-right:8px}
-.xln table{mgn-bottom:10px}
+.xln table{}
 div.xln span.xh6{
     text-transform: uppercase;
     color: #712C81;
@@ -314,7 +317,7 @@ div.xln span.xh6{
     width: 92%;
 }
 .xni.xp7{border:none}
-.x5s.p_AFCore.p_AFDefault span{color: #712C81;font-size: 22px;text-transform: uppercase;font-weight: normal;}
+.x5s.p_AFCore.p_AFDefault span{color: #712C81;font-size: 19px;text-transform: uppercase;font-weight: normal;}
 .x5s.p_AFCore.p_AFDefault table a {background:#712c81;font-size:13px;display: block;padding: 18px 10px;border-radius: 5px;color: #fff;text-decoration: none;transition:all ease 300ms}
 .x5s.p_AFCore.p_AFDefault table a span{color:#fff;font-size:15px}
 .x5s.p_AFCore.p_AFDefault table a:hover{background:#da407f;}
@@ -325,4 +328,25 @@ div.xln span.xh6{
     background: #f3f3f3;
     color: #712c81;
 }
-div.xe8,div.xe8:hover{border:none;background:none;}
+div.xe8{border:none;background:none;}
+.x1ju, .xej{border-radius: 5px;}
+.x1jx, .x1jy, .x1jv, .x1jw, .x1jz, .x1k0, .x1kb,.x1k9, .x1kd{border-color:#b5b5b5;}
+.xim, .xin{border:solid 3px #b5b5b5;border-radius:5px}
+.x1et, .x1kl{color:#da417f;font-size:18px;text-transform: uppercase;}
+.x2fv{color: #d73f7d;font-family: 'stc',arial,sans-serif !important;font-size: 14px;}
+.xqv{border-radius: 5px;margin-top:10px;}
+.x1kp a{border:solid 1px #b5b5b5;border-radius:50%;width:25px;height:25px;padding:0;text-decoration: none;text-align: center;transition: all ease-in-out 300ms;color: #da4584;font-size: 19px;}
+.x1kp a img{display:none;}
+.x1kp a:before{
+    content:'\f00d';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    margin-top: 3px;
+}
+.x1kp a:hover{color: #fff !important;background: #da4584;}
+.x166, .x167{width:400px !important;max-width: 500px !important;}
+
