@@ -325,4 +325,4 @@ div.xln span.xh6{
     background: #f3f3f3;
     color: #712c81;
 }
-div.xe8{border:none;background:none;}
+div.xe8,div.xe8:hover{border:none;background:none;}
