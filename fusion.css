@@ -432,11 +432,17 @@ nav a:focus {
     background-color: transparent;
 }
 
-/*
+
 :lang(en) .mainHeaderLinks{margin-left: 109px;}
 :lang(en) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-left: -648px;}
 
-*/
+
+
+
+:lang(ar) .mainHeaderLinks{margin-right: 109px;}
+:lang(ar) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-right: -648px;}
+
+
 
 :lang(ar) .drawerPadding, .x2dx, .xo6.x2dy.p_AFStartTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFLeftTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFRightTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFEndTabs.p_AFIconified .x1ba {
     padding-right: 0px;
