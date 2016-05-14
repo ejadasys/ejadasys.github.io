@@ -268,7 +268,7 @@ s
     display:none;
 
 }
-:lang(ar).mainHeaderLinks{   margin-top: 15px; margin-right: 50px;}
+:lang(ar).mainHeaderLinks{margin-top: 15px;margin-right: 100px;}
 
 :lang(en) div#ArLinks {
     display:none;
