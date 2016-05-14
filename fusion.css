@@ -364,3 +364,76 @@ div.xe8{border:none;background:none;}
 .x166, .x167{width:400px !important;max-width: 500px !important;}
 
 .xp8, .xp9, .xpa {line-height:20px;    font-size: 16px;}
+
+
+/* Hover Effect for the main menu*/
+#MainMenu li:not(:first-child) a {
+    /* padding: 12px 10px 10px; */
+    /* color: #566473; */
+    text-shadow: none;
+    /* font-weight: 700; */
+}
+
+#MainMenu li:not(:first-child) a::before,
+#MainMenu li:not(:first-child) a::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #efac2a;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    transform: scale(0.65);
+}
+
+#MainMenu li:not(:first-child) a::after {
+    opacity: 0;
+    -webkit-transition: top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: top 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+#MainMenu li:not(:first-child) a:hover::before,
+#MainMenu li:not(:first-child) a:hover::after,
+#MainMenu li:not(:first-child) a:focus::before,
+#MainMenu li:not(:first-child) a:focus::after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+#MainMenu li:not(:first-child) a:hover::after,
+#MainMenu li:not(:first-child) a:focus::after {
+    top: 0%;
+    opacity: 1;
+}
+nav li:not(:first-child) a {
+    position: relative;
+    display: inline-block;
+
+    outline: none;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+}
+
+nav a:hover,
+nav a:focus {
+    outline: none;
+}
+
+#MainMenu li:not(:first-child) a::before {
+    background-color: transparent;
+}
+
+#MainMenu li:not(:first-child) a:hover::before {
+    background-color: #efac2a;
+}
