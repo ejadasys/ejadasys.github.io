@@ -220,9 +220,9 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:before{
     display: block;
     margin: 12px;
 }
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{background:url('images/Home.png') no-repeat center center;width:36px;height:36px;}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content: '\f015';}
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content: '\f015';}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{background:url('images/Home.png') no-repeat center center;width:36px;height:36px;margin-top: -14px;}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content: '';}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(3) div a:before{content: '\f006';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(4) div a:before{content: '\f11d';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(5) div a:before{content: '\f0a2';}
