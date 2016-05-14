@@ -387,7 +387,7 @@ nav a:focus {
 }
 
 #MainMenu li a::before,
-#MainMenu lis a::after {
+#MainMenu li a::after {
     position: absolute;
     top: 100%;
     left: 0;
