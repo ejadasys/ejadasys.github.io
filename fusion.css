@@ -221,7 +221,7 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:before{
     display: block;
     margin: 12px;
 }
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{background:url('images/Home.png') no-repeat center center;width:36px;height:36px;margin-top: -14px;}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{display:none;}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content: '';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(3) div a:before{content: '\f006';}
@@ -240,7 +240,7 @@ s
 
 /*---------------------------------------------------------------*/
 
-.mainHeaderLinks{width:420px;position: relative;z-index: 20000;margin-top: 18px;}
+.mainHeaderLinks{position: relative;z-index: 20000;margin-top: 18px;width: 500px;}
 .mainHeaderLinks nav li:not(:first-child) a {
     position: relative;
     display: inline-block;
@@ -252,8 +252,7 @@ s
 
 .mainHeaderLinks nav ul {
     list-style: none;
-    float: right;
-    display: block;
+    display: inline-block;
     padding: 0;
     margin: 0;
 }
@@ -433,7 +432,7 @@ nav a:focus {
 }
 
 
-:lang(en) .mainHeaderLinks{margin-left: 109px;}
+/*:lang(en) .mainHeaderLinks{margin-left: 109px;}
 :lang(en) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-left: -455px;}
 
 
@@ -441,7 +440,7 @@ nav a:focus {
 
 :lang(ar) .mainHeaderLinks{margin-right: 160px;}
 :lang(ar) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-right: -470px;}
-
+*/
 
 
 :lang(ar) .drawerPadding, .x2dx, .xo6.x2dy.p_AFStartTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFLeftTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFRightTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFEndTabs.p_AFIconified .x1ba {
@@ -455,3 +454,34 @@ nav a:focus {
     margin-top: 10px;
 }
 .bodyContent .x1mb a.x1mg.p_AFSelected .p_AFSelected  {color: #fff;}
+
+:lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
+    right: auto;}
+
+:lang(ar) .InfoTileSelectorV, .xkz a img {transform: rotate(180deg);}
+.user_img{
+    border-radius: 50px;
+    width: 80px !important;
+    height: 80px !important;
+}
+:lang(ar)  .iconHomeAr{
+    display: inline-block;
+    margin-left: 6px;
+}
+/*.bodyContent .x15d {
+    display: table;
+    width: 100%;
+}
+ .bodyContent .x15d .x10x{
+    display: table-row;
+}
+.bodyContent .x15d .x10x div:nth-of-type(1){
+    width: 20% !important;
+    display: table-cell !important;
+    border-left: solid 10px #f2f2f2;
+}
+.bodyContent .x15d .x10x div:nth-of-type(2){
+    display: table-cell !important;
+    width: 70% !important;
+    position: relative !important;
+}*/
