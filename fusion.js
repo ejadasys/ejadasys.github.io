@@ -24,5 +24,6 @@ jQuery(document).ready(function($){
 
     })
 */
+    $('.bodycontent img.xhf').attr('src','https://ejadasys.github.io/images/user_male_portrait.png')
 
 });
