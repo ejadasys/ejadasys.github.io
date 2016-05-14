@@ -279,7 +279,7 @@ s
 
 :lang(ar) .dateIssue table.x1a td:nth-of-type(1) {display:none;}
 
-.mainHeaderLinks nav li:not(:last-child) a {text-decoration:none;}
+.mainHeaderLinks nav li a {text-decoration:none;}
 
 .x1bs.p_AFStrip .x1bt.p_AFSelected, .x1bs.p_AFStrip .x1bt{font-family: "Conv_STC-Regular",arial, sans-serif !important;font-size:16px;}
 
@@ -389,7 +389,7 @@ nav a:focus {
 #MainMenu li a::before,
 #MainMenu li a::after {
     position: absolute;
-    top: 100%;
+    top: 0%;
     left: 0;
     width: 100%;
     height: 3px;
@@ -421,9 +421,9 @@ nav a:focus {
 
 #MainMenu li a:hover::after,
 #MainMenu li a:focus::after {
-    top: 0;
+    top: 85%;
     opacity: 1;
 }
 #MainMenu li a::before {
-     background-color: transparent;
- }
+    background-color: transparent;
+}
