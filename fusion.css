@@ -1,3 +1,4 @@
+
 @import "https://igate.stc.com.sa/newigate/ar-SA/Styles/Main.css";
 @import url("font-awesome.css");
 @font-face {
@@ -237,9 +238,7 @@ s
 
 /*---------------------------------------------------------------*/
 
-.mainHeaderLinks{width:420px;position: relative;z-index: 20000;    margin-top: 10px;
-    margin-left: 45px;
-    margin-right: 40px;}
+.mainHeaderLinks{width:420px;position: relative;z-index: 20000;margin-top: 18px;}
 .mainHeaderLinks nav li:not(:first-child) a {
     position: relative;
     display: inline-block;
