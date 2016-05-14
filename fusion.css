@@ -240,7 +240,7 @@ s
 
 /*---------------------------------------------------------------*/
 
-.mainHeaderLinks{width:420px;position: relative;z-index: 20000;margin-top: 18px;}
+.mainHeaderLinks{width: 600px;position: relative;z-index: 20000;margin-top: 18px;}
 .mainHeaderLinks nav li:not(:first-child) a {
     position: relative;
     display: inline-block;
@@ -252,8 +252,7 @@ s
 
 .mainHeaderLinks nav ul {
     list-style: none;
-    float: right;
-    display: block;
+    display: inline-block;
     padding: 0;
     margin: 0;
 }
@@ -458,7 +457,39 @@ nav a:focus {
 
 :lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
     right: auto;}
+<<<<<<< HEAD
     
     :lang(ar) .InfoTileSelectorV, .xkz a img {transform: rotate(180deg);}
     
     
+=======
+
+:lang(ar) .InfoTileSelectorV, .xkz a img {transform: rotate(180deg);}
+.user_img{
+    border-radius: 50px;
+    width: 80px !important;
+    height: 80px !important;
+}
+:lang(ar)  .iconHomeAr{
+    display: inline-block;
+    margin-left: 6px;
+}
+
+/*.bodyContent .x15d {
+    display: table;
+    width: 100%;
+}
+ .bodyContent .x15d .x10x{
+    display: table-row;
+}
+.bodyContent .x15d .x10x div:nth-of-type(1){
+    width: 20% !important;
+    display: table-cell !important;
+    border-left: solid 10px #f2f2f2;
+}
+.bodyContent .x15d .x10x div:nth-of-type(2){
+    display: table-cell !important;
+    width: 70% !important;
+    position: relative !important;
+}
+>>>>>>> origin/master
