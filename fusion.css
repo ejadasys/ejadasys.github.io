@@ -307,7 +307,7 @@ HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
     background: #712C81;
 }
 .AFLinkColor.xhu.x2fv.xhb{color: #DA427F;font-size:20px;margin-right:8px}
-.xln table{}
+:lang(ar) .xln table div td{text-align:right}
 div.xln span.xh6{
     text-transform: uppercase;
     color: #712C81;
