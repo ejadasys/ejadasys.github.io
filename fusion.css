@@ -221,7 +221,7 @@ div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de  a:before{
     display: block;
     margin: 12px;
 }
-div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{background:url('images/Home.png') no-repeat center center;width:36px;height:36px;margin-top: -14px;}
+div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{display:none;}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{content: '';}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a:before{}
 div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(3) div a:before{content: '\f006';}
@@ -433,7 +433,7 @@ nav a:focus {
 }
 
 
-:lang(en) .mainHeaderLinks{margin-left: 109px;}
+/*:lang(en) .mainHeaderLinks{margin-left: 109px;}
 :lang(en) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-left: -455px;}
 
 
@@ -441,7 +441,7 @@ nav a:focus {
 
 :lang(ar) .mainHeaderLinks{margin-right: 160px;}
 :lang(ar) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-right: -470px;}
-
+*/
 
 
 :lang(ar) .drawerPadding, .x2dx, .xo6.x2dy.p_AFStartTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFLeftTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFRightTabs.p_AFIconified .x1ba, .xo6.x2dy.p_AFEndTabs.p_AFIconified .x1ba {
