@@ -93,6 +93,7 @@ a:hover{color:#222222 !important;}
     position: absolute;
     left: 0;
 }
+:lang(ar) .iconBlock div.x1a a.xh7{right:0}
 .iconBlock:hover div.x1a a.xh7, .iconBlock.active div.x1a a.xh7{background: #DD4381;border-radius: 5px 0 0 5px;}
 .iconBlock div.iconText{
     position: absolute;
@@ -172,7 +173,7 @@ body{background-attachment: inherit!important;}
 .blockL2:hover a, .blockL2 a:hover{color:#fff !important;}
 
 
-:lang(ar) .iconBlock div.iconText{text-align:right}
+:lang(ar) .iconBlock div.iconText{text-align:right;right: 55px;float: right;left: auto;}
 .subIconBlock .x1a table {width:100%;}
 .subIconBlock .x1a table td {width:25%!important;padding:0 10px;}
 
