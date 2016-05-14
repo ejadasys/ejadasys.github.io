@@ -430,3 +430,9 @@ nav a:focus {
 #MainMenu li a::before {
     background-color: transparent;
 }
+
+/*
+:lang(en) .mainHeaderLinks{margin-left: 109px;}
+:lang(en) div.xhi table.x126 div.x2dw div.xv0 table tr td.x1de:nth-of-type(2) div a{position: absolute; margin-left: -648px;}
+
+*/
