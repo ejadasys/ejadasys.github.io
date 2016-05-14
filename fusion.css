@@ -240,7 +240,7 @@ s
 
 /*---------------------------------------------------------------*/
 
-.mainHeaderLinks{width:420px;position: relative;z-index: 20000;margin-top: 18px;}
+.mainHeaderLinks{width: 600px;position: relative;z-index: 20000;margin-top: 18px;}
 .mainHeaderLinks nav li:not(:first-child) a {
     position: relative;
     display: inline-block;
@@ -457,8 +457,8 @@ nav a:focus {
 
 :lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
     right: auto;}
-    
-    :lang(ar) .InfoTileSelectorV, .xkz a img {transform: rotate(180deg);}
+
+:lang(ar) .InfoTileSelectorV, .xkz a img {transform: rotate(180deg);}
 .user_img{
     border-radius: 50px;
     width: 80px !important;
@@ -486,4 +486,3 @@ nav a:focus {
     width: 70% !important;
     position: relative !important;
 }
-*/
