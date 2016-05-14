@@ -24,6 +24,5 @@ jQuery(document).ready(function($){
 
     })
 */
-    $('.bodycontent img.xhf').attr('src','https://ejadasys.github.io/images/user_male_portrait.png')
-
+    $('.bodyContent   img.xhf').attr('src','https://ejadasys.github.io/images/user_male_portrait.png').addClass('user_img');
 });
