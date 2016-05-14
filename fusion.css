@@ -239,6 +239,7 @@ s
     background-image:url('images/STC-Logo_igate_Ar.png');max-width: 250px !important;width:235px !important;height:60px !important;}
 
 /*---------------------------------------------------------------*/
+:lang(en) .mainHeaderLinks {margin-left:40px;}
 
 .mainHeaderLinks{width: 600px;position: relative;z-index: 20000;margin-top: 18px;}
 .mainHeaderLinks nav li:not(:first-child) a {
