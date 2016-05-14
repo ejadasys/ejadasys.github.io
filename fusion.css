@@ -459,4 +459,4 @@ nav a:focus {
 :lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
     right: auto;}
     
-    :lang(ar) .InfoTileSelectorV, .xkz a image {transform: rotate(180deg);}
+    :lang(ar) .InfoTileSelectorV, .xkz a img {transform: rotate(180deg);}
