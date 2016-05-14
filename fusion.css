@@ -455,3 +455,8 @@ nav a:focus {
     margin-top: 10px;
 }
 .bodyContent .x1mb a.x1mg.p_AFSelected .p_AFSelected  {color: #fff;}
+
+:lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
+    right: auto;}
+    
+    :lang(ar) .InfoTileSelectorV, .xkz a image {transform: rotate(180deg);}
