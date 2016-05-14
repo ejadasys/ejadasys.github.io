@@ -259,6 +259,7 @@ s
     float: right;
     padding: 1px 8px 0 9px;
     font-size: 18px;
+    position: relative;
 }
 
 :lang(ar) div#ENLinks {
