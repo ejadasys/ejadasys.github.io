@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4751b726-d251-4612-9a82-f3df0144c6cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_adding_css.html" afterPath="$PROJECT_DIR$/test_adding_css.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ejadasys.github.io.iws" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="fusion.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fusion.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03141361">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state vertical-scroll-proportion="3.264516">
+              <caret line="487" column="1" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -55,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/fusion.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,8 +93,8 @@
         <option value="$USER_HOME$/Desktop/beIN Subscription - Create a new Account.htm" />
         <option value="$PROJECT_DIR$/font-awesome.css" />
         <option value="$PROJECT_DIR$/test_adding_css.html" />
-        <option value="$PROJECT_DIR$/fusion.js" />
         <option value="$PROJECT_DIR$/../../fingerprint/index.html" />
+        <option value="$PROJECT_DIR$/fusion.js" />
         <option value="$PROJECT_DIR$/fusion.css" />
       </list>
     </option>
@@ -108,8 +107,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,120 +246,6 @@
       <created>1462610534029</created>
       <option name="number" value="Default" />
       <updated>1462610534029</updated>
-    </task>
-    <task id="LOCAL-00001" summary="testing commit">
-      <created>1462611003456</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1462611003456</updated>
-    </task>
-    <task id="LOCAL-00002" summary="testing commit">
-      <created>1462611044065</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1462611044065</updated>
-    </task>
-    <task id="LOCAL-00003" summary="testing commit">
-      <created>1462618082252</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1462618082252</updated>
-    </task>
-    <task id="LOCAL-00004" summary="changing the layout of the main icons">
-      <created>1462619708654</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1462619708654</updated>
-    </task>
-    <task id="LOCAL-00005" summary="changing the layout of the main icons">
-      <created>1462619789077</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1462619789077</updated>
-    </task>
-    <task id="LOCAL-00006" summary="changing the layout of the main icons">
-      <created>1462619917230</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1462619917230</updated>
-    </task>
-    <task id="LOCAL-00007" summary="changing the layout of the main icons">
-      <created>1462620252702</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1462620252702</updated>
-    </task>
-    <task id="LOCAL-00008" summary="changing the layout of the main icons">
-      <created>1462637353433</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1462637353433</updated>
-    </task>
-    <task id="LOCAL-00009" summary="changing the layout of the main icons">
-      <created>1462637494475</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1462637494475</updated>
-    </task>
-    <task id="LOCAL-00010" summary="changing the layout of the main icons">
-      <created>1462647101679</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1462647101679</updated>
-    </task>
-    <task id="LOCAL-00011" summary="changing the layout of the main icons">
-      <created>1462647124142</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1462647124142</updated>
-    </task>
-    <task id="LOCAL-00012" summary="changing the layout of the main icons">
-      <created>1462647807199</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1462647807199</updated>
-    </task>
-    <task id="LOCAL-00013" summary="changing header icons">
-      <created>1462823989640</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1462823989640</updated>
-    </task>
-    <task id="LOCAL-00014" summary="changing header icons">
-      <created>1462824090443</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1462824090443</updated>
-    </task>
-    <task id="LOCAL-00015" summary="changing header icons">
-      <created>1462824780662</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1462824780662</updated>
-    </task>
-    <task id="LOCAL-00016" summary="changing header icons">
-      <created>1462825563479</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1462825563479</updated>
-    </task>
-    <task id="LOCAL-00017" summary="changing header icons">
-      <created>1462826324679</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1462826324679</updated>
-    </task>
-    <task id="LOCAL-00018" summary="changing header icons">
-      <created>1462826579869</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1462826579869</updated>
-    </task>
-    <task id="LOCAL-00019" summary="changing header icons">
-      <created>1462912732153</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1462912732153</updated>
     </task>
     <task id="LOCAL-00020" summary="changing header icons">
       <created>1462912868020</created>
@@ -536,11 +421,131 @@
       <option name="project" value="LOCAL" />
       <updated>1463242558111</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="js commit">
+      <created>1463242738574</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1463242738574</updated>
+    </task>
+    <task id="LOCAL-00050" summary="js commit">
+      <created>1463242983149</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1463242983152</updated>
+    </task>
+    <task id="LOCAL-00051" summary="js commit">
+      <created>1463243334958</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1463243334958</updated>
+    </task>
+    <task id="LOCAL-00052" summary="js commit">
+      <created>1463244253208</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1463244253208</updated>
+    </task>
+    <task id="LOCAL-00053" summary="js commit">
+      <created>1463244271223</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1463244271223</updated>
+    </task>
+    <task id="LOCAL-00054" summary="js commit">
+      <created>1463244573204</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1463244573204</updated>
+    </task>
+    <task id="LOCAL-00055" summary="js commit">
+      <created>1463244676028</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1463244676028</updated>
+    </task>
+    <task id="LOCAL-00056" summary="js commit">
+      <created>1463245076848</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1463245076848</updated>
+    </task>
+    <task id="LOCAL-00057" summary="js commit">
+      <created>1463245264274</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1463245264274</updated>
+    </task>
+    <task id="LOCAL-00058" summary="js commit">
+      <created>1463246804337</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1463246804337</updated>
+    </task>
+    <task id="LOCAL-00059" summary="js commit">
+      <created>1463246931278</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1463246931278</updated>
+    </task>
+    <task id="LOCAL-00060" summary="js commit">
+      <created>1463248086135</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1463248086135</updated>
+    </task>
+    <task id="LOCAL-00061" summary="js commit">
+      <created>1463251199936</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1463251199937</updated>
+    </task>
+    <task id="LOCAL-00062" summary="js commit">
+      <created>1463251215650</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1463251215650</updated>
+    </task>
+    <task id="LOCAL-00063" summary="js commit">
+      <created>1463251984941</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1463251984941</updated>
+    </task>
+    <task id="LOCAL-00064" summary="js commit">
+      <created>1463252333056</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1463252333056</updated>
+    </task>
+    <task id="LOCAL-00065" summary="js commit">
+      <created>1463254753875</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1463254753876</updated>
+    </task>
+    <task id="LOCAL-00066" summary="js commit">
+      <created>1463254944471</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1463254944471</updated>
+    </task>
+    <task id="LOCAL-00067" summary="js commit">
+      <created>1463254975153</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1463254975153</updated>
+    </task>
+    <task id="LOCAL-00068" summary="js commit">
+      <created>1463255025610</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1463255025610</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,7 +553,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1864139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -623,22 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_adding_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fusion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../fingerprint/js/jquery.mixitup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -657,10 +646,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fusion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_adding_css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fusion.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03141361">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state vertical-scroll-proportion="3.264516">
+          <caret line="487" column="1" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
           <folding />
         </state>
       </provider>
