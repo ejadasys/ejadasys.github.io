@@ -85,7 +85,7 @@ a:hover{color:#222222 !important;}
     margin-bottom: 5px;
 }
 .iconBlock{box-shadow: 0px 1px 4px -1px rgba(173,171,173,1);border-radius:5px!important;width: 200px;-webkit-box-shadow: 0px 1px 4px -1px rgba(173,171,173,1);background-color: #EAEAEA;margin-right:20px;min-height: 58px;color:#ffffff;margin-left:20px;border-width:1px;border:1px solid;-moz-box-shadow:0px 6px 15px -1px rgba(173,171,173,1);position: relative;border: none;height: auto;margin-bottom: 20px;}
-.iconBlock div.x1a a.xh7{
+.iconBlock div.x1a a.xib{
     background: #E2E2E2;
     display: block;
     width: 50px;
@@ -93,8 +93,8 @@ a:hover{color:#222222 !important;}
     position: absolute;
     left: 0;
 }
-:lang(ar) .iconBlock div.x1a a.xh7{right:0}
-.iconBlock:hover div.x1a a.xh7, .iconBlock.active div.x1a a.xh7{background: #DD4381;border-radius: 5px 0 0 5px;}
+:lang(ar) .iconBlock div.x1a a.xib{right:0}
+.iconBlock:hover div.x1a a.xib, .iconBlock.active div.x1a a.xib{background: #DD4381;border-radius: 5px 0 0 5px;}
 .iconBlock div.iconText{
     position: absolute;
     float: left;
@@ -117,27 +117,27 @@ a:hover{color:#222222 !important;}
     margin-bottom: 5px;
     margin-top: 12px;
 }
-.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(2) .iconBlock a.xh7:before{content:'\f0b1'}
-.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(3) .iconBlock a.xh7:before{content:'\f12e'}
-.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(4) .iconBlock a.xh7:before{content:'\f0c0'}
-.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(5) .iconBlock a.xh7:before{content:'\f007'}
+.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(2) .iconBlock a.xib:before{content:'\f0b1'}
+.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(3) .iconBlock a.xib:before{content:'\f12e'}
+.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(4) .iconBlock a.xib:before{content:'\f0c0'}
+.iconDiv div:nth-of-type(3) table.x1a td:nth-of-type(5) .iconBlock a.xib:before{content:'\f007'}
 
-.iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(2) .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(2) .iconBlock a.xh7:before{content:'\f0e4'}
-.iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(3)  .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(3) .iconBlock a.xh7:before{content:'\f085'}
-.iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(4)  .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(4) .iconBlock a.xh7:before{content:'\f0e8'}
+.iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(2) .iconBlock a.xib:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(2) .iconBlock a.xib:before{content:'\f0e4'}
+.iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(3)  .iconBlock a.xib:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(3) .iconBlock a.xib:before{content:'\f085'}
+.iconDiv div:nth-of-type(6) table.x1a td:nth-of-type(4)  .iconBlock a.xib:before, .iconDiv div:nth-of-type(5) table.x1a td:nth-of-type(4) .iconBlock a.xib:before{content:'\f0e8'}
 
-.iconDiv div:nth-of-type(3) div:nth-of-type(2) .iconBlock a.xh7:before{content:'\f0b1'}
-.iconDiv div:nth-of-type(3) div:nth-of-type(3) .iconBlock a.xh7:before{content:'\f12e'}
-.iconDiv div:nth-of-type(3) div:nth-of-type(4) .iconBlock a.xh7:before{content:'\f0c0'}
-.iconDiv div:nth-of-type(3) div:nth-of-type(5) .iconBlock a.xh7:before{content:'\f007'}
+.iconDiv div:nth-of-type(3) div:nth-of-type(2) .iconBlock a.xib:before{content:'\f0b1'}
+.iconDiv div:nth-of-type(3) div:nth-of-type(3) .iconBlock a.xib:before{content:'\f12e'}
+.iconDiv div:nth-of-type(3) div:nth-of-type(4) .iconBlock a.xib:before{content:'\f0c0'}
+.iconDiv div:nth-of-type(3) div:nth-of-type(5) .iconBlock a.xib:before{content:'\f007'}
 
-.iconDiv div:nth-of-type(6) div:nth-of-type(2) .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5)  div:nth-of-type(2) .iconBlock a.xh7:before{content:'\f0e4'}
-.iconDiv div:nth-of-type(6) div:nth-of-type(3)  .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) div:nth-of-type(3) .iconBlock a.xh7:before{content:'\f085'}
-.iconDiv div:nth-of-type(6) div:nth-of-type(4)  .iconBlock a.xh7:before, .iconDiv div:nth-of-type(5) div:nth-of-type(4) .iconBlock a.xh7:before{content:'\f0e8'}
+.iconDiv div:nth-of-type(6) div:nth-of-type(2) .iconBlock a.xib:before, .iconDiv div:nth-of-type(5)  div:nth-of-type(2) .iconBlock a.xib:before{content:'\f0e4'}
+.iconDiv div:nth-of-type(6) div:nth-of-type(3)  .iconBlock a.xib:before, .iconDiv div:nth-of-type(5) div:nth-of-type(3) .iconBlock a.xib:before{content:'\f085'}
+.iconDiv div:nth-of-type(6) div:nth-of-type(4)  .iconBlock a.xib:before, .iconDiv div:nth-of-type(5) div:nth-of-type(4) .iconBlock a.xib:before{content:'\f0e8'}
 
 
 .iconBlock:hover, .iconBlock.active{background:#712c81 !important; }
-.iconBlock:hover a, .iconBlock:hover a.xh7:before, .iconBlock.active a, .iconBlock.active a.xh7:before{color: #fff !important;}
+.iconBlock:hover a, .iconBlock:hover a.xib:before, .iconBlock.active a, .iconBlock.active a.xib:before{color: #fff !important;}
 .iconBlock.active:after{content:'';/*border: solid 10px transparent;border-left-color: #712C81;position: absolute;right: -19px;top: 30%;*/}
 
 .subIconBlock{margin: -310px 0 0px 235px;width: 70%;position: absolute;}
