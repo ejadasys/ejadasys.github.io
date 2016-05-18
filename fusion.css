@@ -104,7 +104,7 @@ a:hover{color:#222222 !important;}
     text-align: left;
 }
 .iconBlock img{display:none !important; }
-.iconBlock a.xh7:before{
+.iconBlock a.p_AFIconOnly:before{
     content:'';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
