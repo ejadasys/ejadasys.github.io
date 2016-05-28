@@ -1,0 +1,31 @@
+
+@import url("font-awesome.css");
+@font-face {
+    font-family: 'Conv_STC-Bold';
+    src: url("fonts/STC-Bold.eot");
+    /* for non-IE */
+    src: local("?"), url("fonts/STC-Bold.woff") format("woff"), url("fonts/STC-Bold.ttf") format("truetype"), url("fonts/STC-Bold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_STC-Italic';
+    src: url("fonts/STC-Italic.eot");
+    src: local("?"), url("fonts/STC-Italic.woff") format("woff"), url("fonts/STC-Italic.ttf") format("truetype"), url("fonts/STC-Italic.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_STC-Light';
+    src: url("fonts/STC-Light.eot");
+    src: local("?"), url("fonts/STC-Light.woff") format("woff"), url("fonts/STC-Light.ttf") format("truetype"), url("fonts/STC-Light.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_STC-Regular';
+    src: url("fonts/STC-Regular.eot");
+    src: local("?"), url("fonts/STC-Regular.woff") format("woff"), url("fonts/STC-Regular.ttf") format("truetype"), url("fonts/STC-Regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
