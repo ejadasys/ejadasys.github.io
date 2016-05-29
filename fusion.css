@@ -147,7 +147,7 @@ a:hover{color:#222222 !important;}
     border-collapse: separate;
     border-spacing: 10px;
 }
-.mainTable2 td:nth-of-type(1), .mainTable2 td:nth-of-type(3), .mainTable2 td:nth-of-type(1) .feeds-panel, .mainTable2 td:nth-of-type(1) .x2n6{background:#fff !important;position: relative;}
+.mainTable2 td:nth-of-type(1), .mainTable2 td:nth-of-type(3), .mainTable2 td:nth-of-type(1) .feeds-panel, .mainTable2 td:nth-of-type(1) .x2lz{background:#fff !important;position: relative;}
 .iconRow {width:100%;}
 .mainTable2 td:nth-of-type(1){width:200px;background:transparent!important;}
 .subIconBlock  table.x1a  tr td:nth-of-type(1){width:auto;}
@@ -181,7 +181,7 @@ body{background-attachment: inherit!important;}
 
 .feeds-front-top-panel img {border:solid 1px #666!important;}
 
-.feeds-panel, .x2n6 {
+.feeds-panel, .x2lz {
 
     padding:0px!important;
     border-radius: 5px;
@@ -307,8 +307,8 @@ HTML .InfoTileItemV.p_AFSelected, HTML .xkx.p_AFSelected{border-color:#f2f2f2}
     background: #712C81;
 }
 .AFLinkColor.xhu.x2fv.xhb{color: #DA427F;font-size:20px;margin-right:8px}
-:lang(ar) .xln table div td{text-align:right}
-div.xln span.xh6{
+:lang(ar) .xn4 table div td{text-align:right}
+div.xn4 span.xh6{
     text-transform: uppercase;
     color: #712C81;
     border-bottom: solid 1px #b5b5b5;
