@@ -450,11 +450,11 @@ nav a:focus {
 }
 
 .x7j, .x7k, .portlet-form-button, .xd4 {font-family: "Conv_STC-Regular",arial, sans-serif !important}
-.bodyContent .x1mb a.x1mg.p_AFSelected  {background: #712c81;border-radius: 5px;display: block;color: #fff;}
-.bodyContent .x1mb a.x1mg.p_AFSelected .x1mi  {
+.bodyContent .x1d5.p_AFStrip .x1nu.p_AFSelected  {background: #712c81;border-radius: 5px;display: block;color: #fff;}
+.bodyContent .x1d5.p_AFStrip .x1nu.p_AFSelected .x1nw  {
     margin-top: 10px;
 }
-.bodyContent .x1mb a.x1mg.p_AFSelected .p_AFSelected  {color: #fff;}
+.bodyContent .x1d5.p_AFStrip .x1nu.p_AFSelected .p_AFSelected  {color: #fff;}
 
 :lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
     right: auto;}
