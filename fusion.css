@@ -206,10 +206,10 @@ body{background-attachment: inherit!important;}
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
 
 /*Changing the header icons */
-div.xim table.x13q div.x1gf div.xwj table tr td.x1et  a{display:block;text-decoration: none !important;opacity:0.8}
-div.xim table.x13q div.x1gf div.xwj table tr td.x1et  a:hover{opacity:1}
-div.xim table.x13q div.x1gf div.xwj table tr td.x1et  a img{display:none;}
-div.xim table.x13q div.x1gf div.xwj table tr td.x1et  a:before{
+div.xim table.x13q div.x2fh div.xwj table tr td.x1et  a{display:block;text-decoration: none !important;opacity:0.8}
+div.xim table.x13q div.x2fh div.xwj table tr td.x1et  a:hover{opacity:1}
+div.xim table.x13q div.x2fh div.xwj table tr td.x1et  a img{display:none;}
+div.xim table.x13q div.x2fh div.xwj table tr td.x1et  a:before{
     content:'';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
