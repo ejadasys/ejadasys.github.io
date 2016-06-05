@@ -206,10 +206,10 @@ body{background-attachment: inherit!important;}
 .UnifiedNavigatorItem, .xi5{margin-top:5px;}
 
 /*Changing the header icons */
-div.xim table.x13o div.x1gf div.xwj table tr td.x1er  a{display:block;text-decoration: none !important;opacity:0.8}
-div.xim table.x13o div.x1gf div.xwj table tr td.x1er  a:hover{opacity:1}
-div.xim table.x13o div.x1gf div.xwj table tr td.x1er  a img{display:none;}
-div.xim table.x13o div.x1gf div.xwj table tr td.x1er  a:before{
+div.xim table.x13o div.x1gf div.xwj table tr td.x1et  a{display:block;text-decoration: none !important;opacity:0.8}
+div.xim table.x13o div.x1gf div.xwj table tr td.x1et  a:hover{opacity:1}
+div.xim table.x13o div.x1gf div.xwj table tr td.x1et  a img{display:none;}
+div.xim table.x13o div.x1gf div.xwj table tr td.x1et  a:before{
     content:'';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -221,14 +221,14 @@ div.xim table.x13o div.x1gf div.xwj table tr td.x1er  a:before{
     display: block;
     margin: 12px;
 }
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(2) div a{display:none;}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(2) div a:before{content: '';}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(2) div a:before{}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(3) div a:before{content: '\f006';}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(4) div a:before{content: '\f11d';}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(5) div a:before{content: '\f0a2';}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(6) a:before{content: '\f29a';}
-div.xim table.x13o div.x2fh div.xwj table tr td.x1er:nth-of-type(7) div a:before{content: '\f29c';}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(2) div a{display:none;}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(2) div a:before{content: '';}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(2) div a:before{}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(3) div a:before{content: '\f006';}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(4) div a:before{content: '\f11d';}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(5) div a:before{content: '\f0a2';}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(6) a:before{content: '\f29a';}
+div.xim table.x13o div.x2fh div.xwj table tr td.x1et:nth-of-type(7) div a:before{content: '\f29c';}
 
 
 
