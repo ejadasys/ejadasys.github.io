@@ -281,7 +281,7 @@ div.xim table.x13q div.x2fh div.xwj table tr td.x1et:nth-of-type(7) div a:before
 
 
 
-/*:lang(ar) .dateIssue table.x1a td:nth-of-type(1) {display:none;}*/   /*-------fix date to be one line---------*/
+:lang(ar) .dateIssue table.x1a td:nth-of-type(1) {display:none;}   /*-------fix date to be one line---------*/
 
 .mainHeaderLinks nav li a {text-decoration:none;}
 
@@ -500,4 +500,4 @@ nav a:focus {
     line-height: 15px;
 }
 
-.xp4 .xea{background-color:inherit!important;}
+.xp4 .xea{background-color:#d63f7d;}
