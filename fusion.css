@@ -454,7 +454,7 @@ nav a:focus {
 .bodyContent .x1d7.p_AFStrip .x1nv.p_AFSelected .x1nx  {
     margin-top: 10px;
 }
-.bodyContent .x1d5.p_AFStrip .x1nu.p_AFSelected .p_AFSelected  {color: #fff;}
+.bodyContent .x1d7.p_AFStrip .x1d8.p_AFSelected  {color: #fff;}
 
 :lang(ar) .InfoTileSelectorV, .xkz {    left: 0;
     right: auto;}
