@@ -425,7 +425,7 @@ nav a:focus {
 
 #MainMenu li a:hover::after,
 #MainMenu li a:focus::after {
-    top: 85%;
+    top: 115%;
     opacity: 1;
 }
 #MainMenu li a::before {
@@ -450,7 +450,7 @@ nav a:focus {
 }
 
 .x7j, .x7k, .portlet-form-button, .xd4 {font-family: "Conv_STC-Regular",arial, sans-serif !important}
-.bodyContent .x1d5.p_AFStrip .x1nu.p_AFSelected  {background: #712c81;border-radius: 5px;display: block;color: #fff;}
+.bodyContent .x1d7.p_AFStrip .x1nv.p_AFSelected  {background: #712c81;border-radius: 5px;display: block;color: #fff;}
 .bodyContent .x1d5.p_AFStrip .x1nu.p_AFSelected .x1nw  {
     margin-top: 10px;
 }
@@ -501,3 +501,4 @@ nav a:focus {
 }
 
 .xp4 .xea{background-color:#d63f7d;}
+/**/
