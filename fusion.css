@@ -425,7 +425,7 @@ nav a:focus {
 
 #MainMenu li a:hover::after,
 #MainMenu li a:focus::after {
-    top: 115%;
+    top: 100%;
     opacity: 1;
 }
 #MainMenu li a::before {
