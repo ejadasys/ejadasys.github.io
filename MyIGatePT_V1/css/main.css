@@ -860,6 +860,7 @@ padding:4px 10px;
 @media (max-width:768px) {
  .col10-md-12 {width:100%}
  .profile-Pic img{width:100%}
+ .custom_filter_cont button {width:100%;margin:10px 0;}
 }
 
 /*------------------------------- Attandace Page ----------------------------------*/
@@ -1025,3 +1026,4 @@ div#container5 g.highcharts-legend-item, g.highcharts-button {display:none;}
 /*div#container5 .highcharts-container {width:100%!important;}*/
 div#container5 g.highcharts-legend {display:none;}
 div#container5 g.highcharts-legend-box {display:none;}
+.table_actions button{width:100%;}
