@@ -30,7 +30,7 @@
     font-style: normal;
 }
 .xdy, .x17i, .xp8, .xp9, .xpa{font-family: "Conv_STC-Regular",arial, sans-serif !important}
-body{font-family: "Conv_STC-Regular",arial, sans-serif !important}
+body{font-family: "Conv_STC-Regular",arial, sans-serif !important;    background-repeat: no-repeat;}
 tr, td, div, h1, h2, h3, h4, table{font-family: "Conv_STC-Regular",arial, sans-serif !important;    line-height: 20px;}
 a{font-family: "Conv_STC-Regular",arial, sans-serif !important;color:#555555;}
 a:hover{color:#222222 !important;}
