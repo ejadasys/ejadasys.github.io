@@ -245,11 +245,11 @@ $(function () {
 });
     </script>
 
-      <script type="text/javascript">
+       <script type="text/javascript">
 $(function () {
-    $('#container3').highcharts({
+    $('#container5').highcharts({
         title: {
-            text: 'Attendance trend',
+            text: 'Attendance Trend',
             x: -20 //center
         },
         
@@ -321,43 +321,7 @@ $(function () {
 });
     </script>
 
-      <script type="text/javascript">
-$(function () {
-    $('#container3').highcharts({
-        title: {
-            text: 'Attendance trend',
-            x: -20 //center
-        },
-        
-        xAxis: {
-            categories: ['Jan', 'Feb', 'Mar']
-        },
-        yAxis: {
-         
-            plotLines: [{
-                value: 0,
-                width: 1,
-                color: '#808080'
-            }]
-        },
-        tooltip: {
-            valueSuffix: '°C',
-            background:'red'
-        },
-        legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
-            borderWidth: 0
-        },
-        series: [{
-            name: 'Quarter',
-            data: [7.0, 6.9, 9.5]
-        
-        }]
-    });
-});
-    </script>
+     
 
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -511,12 +475,12 @@ $(function () {
         </div>
          
          <hr class="hrStyle" />
-       
+       <br/>
          
        
-         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+         <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12">
 
-              <div class="col-lg-3" >
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
 
              <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10"  title=" Direct Reports">
   
@@ -533,7 +497,7 @@ $(function () {
 
 
 </div>
-             <div class="col-lg-3">   <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10" >
+             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">   <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10" >
   
     <optgroup label="Employee">
               <option selected="selected">Employee</option>
@@ -546,7 +510,7 @@ $(function () {
           
   </select>
  </div>
-              <div class="col-lg-3">  <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10"  title=" Employee Level">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">  <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10"  title=" Employee Level">
   
     <optgroup>
               <option>a.	President</option>
@@ -567,12 +531,12 @@ $(function () {
        
 
          </div>
-           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+           <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
              
 
               <div class="col-lg-12"><div class="dropdown" > 
            
-  <button class="dropdown_date dropdown-toggle "  style="float:right" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+  <button class="dropdown_date dropdown-toggle "   type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%;padding:0;">
   <i class="fa fa-calendar dropdown_date_calIcon"></i>
     Quarter &nbsp;&nbsp;&nbsp; 
     <span class="">|</span>
@@ -735,14 +699,14 @@ $(function () {
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-            <div class="profile-box col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+            <div class="profile-box col-lg-6 col-md-6 col-sm-6 col-xs-3" >
               <div class="profile-Pic"> <img src="images/user_img.png" /></div>
               
 
           </div>
 
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
               <table width="100%" border="1" cellspacing="0" cellpadding="0" class="table-profile new-ta-pro">
                 <tr>
                   <td>
@@ -763,10 +727,12 @@ $(function () {
               </table>
             </div>
           </div>
-          <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12" >
-           <div class="chart-border">
-<div id="container3" style="min-width:380px; height: 220px; margin: 0 auto"></div>
-</div>
+          <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12"  style="padding:0px;margin:0px">
+           <div class="chart-border" style="padding:0px;margin:0px" >
+                <div id="container5" style="min-width: 100%; height: 400px; margin: 0 auto" data-highcharts-chart="2">
+               
+               </div>
+           </div>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
             <table width="100%"  cellspacing="0" cellpadding="0" class="table-profile new-ta-pro" >
@@ -822,7 +788,7 @@ $(function () {
             </td>
         </tr>
                    <tr  data-toggle="collapse" data-target="#accordion2" class="clickable">
-                     <td><strong>Ail Ahmed </strong> <span class="caret"></span></td>
+                     <td><strong>Ali Ahmed </strong> <span class="caret"></span></td>
                      <td>Thornton</td>
                      <td>@fat</td>
                      <td>665555666</td>
@@ -831,103 +797,7 @@ $(function () {
                      </td>
                    
                    </tr>
-                     <tr class="tr-none-any">
-            <td colspan="5" class="none-any">
-
-                <div id="accordion2" class="collapse">
-<div class="col-lg-12 white_bg removeScroll shadow-collspse" style="padding-top:20px;padding-bottom:20px;margin-top:20px;">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-            <div class="profile-box col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-              <div class="profile-Pic"> <img src="images/user_img.png" /></div>
-              <a href="#"> <i class="fa fa-edit" aria-hidden="true"></i> Edit Profile</a> 
-
-          </div>
-
-
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <table width="100%" border="1" cellspacing="0" cellpadding="0" class="table-profile new-ta-pro">
-                <tr>
-                  <td>
-                    <h4>Ali Ahmed</h4>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Job Title</td>
-                </tr>
-                <tr>
-                  <td>Job Title second</td>
-                </tr>
-                <tr>
-                  <td>
-                   <i class="fa fa-envelope"></i> Massage Mohammed 
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-          <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12  " >
-           
-<div id="container4" style="min-width:400px; height: 220px; margin: 0 auto" class="border-1"></div>
-
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-            <table width="100%"  cellspacing="0" cellpadding="0" class="table-profile new-ta-pro" >
-              <tr>
-                <th scope="row" >punctuality Score</th>
-              
-              </tr>
-              <tr>
-                
-                <td>
- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-3 ">
-                <div class="circle  ">
-                78%
-              </div>
-</div>
-<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
-<br>
-               <span class="red-f">3%  <span class="caret"></span></span><br>
-              <span>last3 months</span>
-</div>
-                </td>
-              </tr>
-              <tr>
-
-           <td>
-<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 ">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
-           <br><strong>Occunences of Tardliness </strong>
- </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 " >
-  <div class="circle-red">
-                1
- </div>
-              </div>  
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
-              <div class="circle-orange">
-               2              </div></div>
-               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
-               <div class="circle-gray">
-               5              </div> </div>
-
-           </td>
-              </div> 
-              </tr>
-            </table>
-            <div class="F_right">
-            <a  data-toggle="collapse" data-target="#accordion2" class="clickable">colse</a>
-            </div>
-           </div>
-        </div>
-
-
-
-
-                </div>
-            </td>
-        </tr>
+       
                    <tr  data-toggle="collapse" data-target="#accordion3" class="clickable">
                      <td><strong>Nayef</strong> <span class="caret"></span></td>
                      <td>the Bird</td>
@@ -936,11 +806,7 @@ $(function () {
                      <td></td>
                     
                    </tr>
-                     <tr>
-            <td colspan="5" class="none-any">
-                <div id="accordion3" class="collapse">Hidden by default</div>
-            </td>
-        </tr>
+                     
                  </tbody>
                </table>
 
@@ -954,10 +820,38 @@ $(function () {
         <div style="height:300px;display: table; width: 100%;" class="chart-border">
         <h3> Attendance report (Wall chart) Team</h3>
 
+             <div class="col-lg-12 col-md-12 col-sm-12" style="background:#fafafa;margin-bottom:30px">
+         <div class="teamNotificationsTxt">
+         
+         <div style="float:left;" class="teamNotificationsTxt_number"> <img src="images/alart.gif" /></div>
+         <div style="float:left;" class="teamNotificationsTxt_info">
+           <div>Latenesses and 5 shortnesses overall for
+                  
+                  <a href="#"><select name="" style="border:none;" class="selestStyle">
+                    <option>This Month</option>
+                    <option>Last Month</option>
+                  </select></a>
+                  </div>
+             <div>- The highest lateness being 13 minutes by <a href="#">Ahmed Abdullah.</a></div>
+             
+                  <div>- <a href="#">Khalid Ali</a>, <a href="#">Mohammad M</a>. <a href="#">and 3 others</a> were absent Yesterday.</div>
+                
+                  <div>- A total of 1 hour of latenesses combined</div>
+                  <div>This brief will be automatically generated at 1pm everyday.</div>
+  
+
+         </div>
+         </div>
+          <br class="clearfix" />
+        </div>
+            
+       
             <div class="dt_custom_filter">
 
                 <div class="table_actions row">
+                  
                     <div class="col-lg-2 col-xs-4 results_cont">
+                       
                         <div class="dropdown">
 
                             <button class="dropdown_date dropdown-toggle" type="button" id="results"

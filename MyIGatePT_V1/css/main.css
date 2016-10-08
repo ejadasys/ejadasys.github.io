@@ -859,6 +859,7 @@ padding:4px 10px;
 
 @media (max-width:768px) {
  .col10-md-12 {width:100%}
+ .profile-Pic img{width:100%}
 }
 
 /*------------------------------- Attandace Page ----------------------------------*/
@@ -1020,3 +1021,7 @@ position:relative;    padding: 10px;margin: 10px 0px;}
 .configurationTB td{padding: 5px 10px;}
 .configurationTB input, .configurationTB select{width: calc(100% - 30px);min-width: 70px;}
 
+div#container5 g.highcharts-legend-item, g.highcharts-button {display:none;}
+/*div#container5 .highcharts-container {width:100%!important;}*/
+div#container5 g.highcharts-legend {display:none;}
+div#container5 g.highcharts-legend-box {display:none;}
