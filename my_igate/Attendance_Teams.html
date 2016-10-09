@@ -1,0 +1,1022 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>MyGate Dashboard</title>
+<link rel="stylesheet" href="css/datatables.css">
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/simple-line-icons.css"/>
+
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/ion.rangeSlider.css"/>
+<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css"/>
+
+<link rel="stylesheet" href="css/main.css"/>
+
+<link rel="stylesheet" href="css/bootstrap-select.css"/>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/datatables.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+<!-- ION Range slider -->
+<script src="js/ion.rangeSlider.min.js" type="text/javascript"></script>
+
+<!--Gauge charts  -->
+<script src="js/gauge.min.js" type="text/javascript"></script>
+<script src="js/gauge_charts.js" type="text/javascript"></script>
+<!-- animation -->
+
+<script type="text/javascript" src="js/jquery.inview.js"></script>
+
+
+<!-- full calendar -->
+<link href='css/fullcalendar.css' rel='stylesheet' />
+<script src='js/moment.min.js'></script>
+<script src='js/fullcalendar.js'></script>
+
+
+<!-- bootstrap tagging system -->
+<script src="js/bootstrap-tag-cloud.js" type="text/javascript"></script>
+<link href='css/bootstrap-tag-cloud.css' rel='stylesheet' />
+
+
+<!-- custom attendance calendar scripts -->
+<script src="js/custom_attendance_cal.js" type="text/javascript"></script>
+
+
+<!-- Common script file -->
+<script src="js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+    var jq_old = jQuery.noConflict(true);
+</script>
+<!--**************************** by karim ******************************************************-->
+
+
+
+
+
+ <script>
+     jq_old(document).ready(function () {
+
+
+    //stick in the fixed 100% height behind the navbar but don't wrap it
+    jq_old('#slide-nav.navbar .container').append(jq_old('<div id="navbar-height-col"></div>'));
+
+    // Enter your ids or classes
+    var toggler = '.navbar-toggle';
+    var pagewrapper = '#page-content';
+    var navigationwrapper = '.navbar-header';
+    var menuwidth = '100%'; // the menu inside the slide menu itself
+    var slidewidth = '80%';
+    var menuneg = '-100%';
+    var slideneg = '-80%';
+
+
+    jq_old("#slide-nav").on("click", toggler, function (e) {
+
+        var selected = $(this).hasClass('slide-active');
+
+        jq_old('#slidemenu').stop().animate({
+            left: selected ? menuneg : '0px'
+        });
+
+        jq_old('#navbar-height-col').stop().animate({
+            left: selected ? slideneg : '0px'
+        });
+
+        jq_old(pagewrapper).stop().animate({
+            left: selected ? '0px' : slidewidth
+        });
+
+        jq_old(navigationwrapper).stop().animate({
+            left: selected ? '0px' : slidewidth
+        });
+
+
+        jq_old(this).toggleClass('slide-active', !selected);
+        jq_old('#slidemenu').toggleClass('slide-active');
+
+
+        jq_old('#page-content, .navbar, body, .navbar-header').toggleClass('slide-active');
+
+
+    });
+
+
+    var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
+
+
+    jq_old(window).on("resize", function () {
+
+        if (jq_old(window).width() > 767 && jq_old('.navbar-toggle').is(':hidden')) {
+            jq_old(selected).removeClass('slide-active');
+        }
+
+
+    });
+
+
+
+
+});
+
+    </script>
+
+<script type="text/javascript">
+$(function () {
+    $('#container1').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Per Employee lateness and shortnesses chart'
+        },
+        xAxis: {
+            categories: ['karim', 'Khaled', 'Fahed', 'Nabile', 'Abdullah']
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: ''
+            },
+            stackLabels: {
+                enabled: true,
+                style: {
+                    fontWeight: 'bold',
+                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                }
+            }
+        },
+        legend: {
+            align: 'right',
+            x: -90,
+            verticalAlign: 'bottom',
+            y: 25,
+            floating: true,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.background) || 'white',
+            borderColor: '#CCC',
+            borderWidth: 0,
+            shadow: false
+        },
+        tooltip: {
+            headerFormat: '<b>{point.x}</b><br/>',
+            pointFormat: '{series.name}: {point.y}<br/>Total: {point.stackTotal}'
+        },
+        plotOptions: {
+            column: {
+                stacking: 'normal',
+                dataLabels: {
+                    enabled: true,
+                    color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
+                }
+            }
+        },
+        series: [{
+            name: 'justified',
+            data: [5, 3, 4, 7, 2]
+        }, {
+            name: 'Jane',
+            data: [2, 2, 3, 2, 1]
+        }, {
+            name: 'Joe',
+            data: [3, 4, 4, 2, 5]
+             }, {
+            name: 'Joe',
+            data: [3, 4, 4, 2, 5]
+             }, {
+            name: 'Absent',
+            data: [3, 4, 4, 2, 5]
+        }]
+    });
+});
+    </script>
+
+        <script type="text/javascript">
+$(function () {
+    $('#container2').highcharts({
+        title: {
+            text: 'Team Overall Attendance Trend',
+            x: -20 //center
+        },
+        
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar']
+        },
+        yAxis: {
+         
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: '°C',
+            background:'red'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: 'Quarter',
+            data: [7.0, 6.9, 9.5]
+        
+        }]
+    });
+});
+    </script>
+
+       <script type="text/javascript">
+$(function () {
+    $('#container5').highcharts({
+        title: {
+            text: 'Attendance Trend',
+            x: -20 //center
+        },
+        
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar']
+        },
+        yAxis: {
+         
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: '°C',
+            background:'red'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: 'Quarter',
+            data: [7.0, 6.9, 9.5]
+        
+        }]
+    });
+});
+    </script>
+
+     <script type="text/javascript">
+$(function () {
+    $('#container4').highcharts({
+        title: {
+            text: 'Monthly Average Temperature',
+            x: -20 //center
+        },
+        
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar']
+        },
+        yAxis: {
+         
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: '°C',
+            background:'red'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: 'Quarter',
+            data: [7.0, 6.9, 9.5]
+        
+        }]
+    });
+});
+    </script>
+
+     
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+</head><body>
+<header class="navbar navbar-inverse mobile-j top-main " role="navigation" id="slide-nav"   style="background-color:#fff;">
+  <div class="container border-top">
+
+   <div class="navbar-header">
+    <a class="navbar-toggle">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </a>
+    <a class="navbar-brand stc_logo icon-scroll"  href="http://www.stc.com.sa" >
+    </a>
+   </div> 
+
+   <div id="slidemenu"  class="top_menu">
+
+          <form class="navbar-form navbar-right color-icon-top" role="form">
+            <div class="iconSet1 ">
+                    <div class="icon dash dropdown dashline"  id="appSwitcher">
+                    <a  href="#" dropdown-toggle"  data-toggle="dropdown">
+                        <i class="fa fa-th fa-2x" aria-hidden="true"></i>
+                        <span class="caret"></span>
+</a>
+
+<ul class="dropdown-menu" data-dropdown-in="flipInY" data-dropdown-out="flipOutY">
+    <li><a href="#">HTML <div class="task-icon badge badge-success"><i class="icon-energy"></i>
+                                                                </div></a> </li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+                    </div>
+
+                   <div class="icon dash dropdown icon-notfi  icon-scroll"  id="appSwitcher">
+                    <a  href="#" dropdown-toggle"  data-toggle="dropdown">
+                      <i class="fa fa-bell fa-2x" aria-hidden="true"></i>
+                       <span class="caret"></span>
+</a>
+<ul class="dropdown-menu" data-dropdown-in="flipInY" data-dropdown-out="flipOutY">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+   <span id="notificationSpan">2</span>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="searchSet">
+                   <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </span>
+
+
+    </div>
+
+<div class="icon dash dropdown icon-notfi  icon-top-user"  id="appSwitcher">
+                    <a  href="#"  data-toggle="dropdown">
+                      <img src="images/imgs.jpg">
+                       <span class="caret"></span>
+</a>
+<ul class="dropdown-menu" > 
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+
+                    </div>
+                </div>
+
+
+
+          </form>
+
+    <ul id="MainMenu" class="nav navbar-nav " >
+
+
+    <li class="dropdown open"> <a href="" class="dropdown-toggle " data-toggle="dropdown">My Gate <br/><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+
+     <ul class="dropdown-menu topMenu">
+      <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="#">Inbox</a></li>
+            <li><a href="Profile.html"> Profile</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="Attendance.html">Attendance</a></li>
+            <li><a href="#"> Vacation</a></li>
+            <li><a href="My Family.html">My Family</a></li>
+            <li><a href="#">Calender</a></li>
+            <li><a href="training.html">training </a></li>
+
+    </ul>
+
+     </li>
+
+    <li  class="dropdown"> <A href="#">E Services</A> </li>
+    <li  class="dropdown"> <A href="#">Al-Diwaniyah</A> </li>
+
+  </ul>
+
+   </div>
+  </div>
+ </header>
+
+
+ 
+<div class="container">
+    <div class="row">
+     <br class="clearfix" /> 
+         <div class="col-lg-12 col-md-12 col-sm-12" >
+         <div class="white_bg removeScroll">
+         <div class="row top_bottom_brdr " >
+         
+         <div class="col-lg-5">
+         <ul class="nav nav-pills nav-justified">
+   <li role="presentation" class="active fixBorder_R"><a href="Attendance.html" class="fixBorder_R">My Attendance</a></li>
+              <li role="presentation" class="tabs-inactive fixBorder_L"><a href="Attendance_Teams.html" class="fixBorder_L">My Team's Attendance</a></li> </ul>
+                </div>
+         <br class="clearfix" />
+         <div class="col-lg-12 col-md-12 col-sm-12">
+         <div class="teamNotificationsTxt">
+         
+         <div style="float:left;" class="teamNotificationsTxt_number">6</div>
+         <div style="float:left;" class="teamNotificationsTxt_info">
+           <div>Latenesses and 5 shortnesses overall for
+                  
+                  <a href="#"><select name="" style="border:none;" class="selestStyle">
+                    <option>This Month</option>
+                    <option>Last Month</option>
+                  </select></a>
+                  </div>
+             <div>- The highest lateness being 13 minutes by <a href="#">Ahmed Abdullah.</a></div>
+             
+                  <div>- <a href="#">Khalid Ali</a>, <a href="#">Mohammad M</a>. <a href="#">and 3 others</a> were absent Yesterday.</div>
+                
+                  <div>- A total of 1 hour of latenesses combined</div>
+                  <div>This brief will be automatically generated at 1pm everyday.</div>
+  
+
+         </div>
+         </div>
+          <br class="clearfix" />
+        </div>
+         
+         <hr class="hrStyle" />
+       <br/>
+         
+       
+         <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12">
+
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
+
+             <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10"  title=" Direct Reports">
+  
+    <optgroup >
+              <option selected="selected">Direct Reports </option>
+              
+            </optgroup>
+            <optgroup >
+              <option>Indirect Reports </option>
+              
+            </optgroup>
+          
+  </select>
+
+
+</div>
+             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">   <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10" >
+  
+    <optgroup label="Employee">
+              <option selected="selected">Employee</option>
+              
+            </optgroup>
+            <optgroup label="Contractors">
+              <option>Contractor</option>
+            
+            </optgroup>
+          
+  </select>
+ </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">  <select id="first-disabled2" class="selectpicker" multiple data-hide-disabled="true" data-size="10"  title=" Employee Level">
+  
+    <optgroup>
+              <option>a.	President</option>
+              <option>b.	Senior VP</option>
+              <option>c.	Vice President</option>
+              <option>d.	General Manager</option>
+            </optgroup>
+           
+          
+  </select>
+ </div>
+
+ <div class="col-lg-4"> 
+
+  </div>
+
+
+       
+
+         </div>
+           <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+             
+
+              <div class="col-lg-12"><div class="dropdown" > 
+           
+  <button class="dropdown_date dropdown-toggle "   type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width:100%;padding:0;">
+  <i class="fa fa-calendar dropdown_date_calIcon"></i>
+    Quarter &nbsp;&nbsp;&nbsp; 
+    <span class="">|</span>
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Quarter 1</a></li>
+    <li><a href="#">Quarter 2</a></li>
+    <li><a href="#">Quarter 3</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div></div>
+
+
+           </div>
+
+         <br class="clearfix" />
+         
+         <div class="col-lg-12" style="padding-top:20px;">
+         <div class="row">
+        
+         <div class="col10-lg-2 col10-md-12" style="padding:10px;box-sizing:border-box;float:left;">
+          <div class="att-dashboard-stat">
+         <div class="title">Your punctuality</div>
+         <div class="number" style=""><span>85%</span></div>
+         </div>
+         </div>
+         
+         <div class="col10-lg-2 col10-md-12" style="padding:10px;box-sizing:border-box;float:left;">
+          <div class="att-dashboard-stat" >
+                  
+
+         <div class="title">Incidents</div>
+         <div class="number" style=""><span>25</span></div>
+         <div  id="" class="dashboard-statDetails">
+             <table border="0" cellspacing="0" cellpadding="0" class="dashboard_overDetails">
+    <tr>
+    <td height="25px" ></td>
+  </tr>
+  <tr>
+    <td align="center">(25-41)20:min</td>
+  </tr>
+  
+</table>
+
+
+                  </div>
+         </div>
+         </div>
+        
+         <div class="col10-lg-2 col10-md-12" style="padding:10px;box-sizing:border-box;float:left;">
+         <div class="att-dashboard-stat">
+         <div class="title">Shortness</div>
+         <div class="number" style=""><span>480<span class="nubmer-unit">Min</span></span></div>
+                <div  id="" class="dashboard-statDetails">
+                  <table border="0" cellspacing="0" cellpadding="0" class="dashboard_overDetails">
+    <tr>
+    <td height="25px" ></td>
+  </tr>
+  <tr>
+    <td align="center">(25-41)20:min</td>
+  </tr>
+  
+</table>
+
+                  </div>                                                             
+                                                                        
+                                                                        
+         </div>
+         </div>
+        
+         <div class="col10-lg-2 col10-md-12" style="padding:10px;box-sizing:border-box;float:left;">
+         <div class="att-dashboard-stat">
+         <div class="title">Latness</div>
+         <div class="number" style=""><span>85<span class="nubmer-unit">Min</span></span></div>
+                   
+                                                                         <div  id="" class="dashboard-statDetails">
+                  <table border="0" cellspacing="0" cellpadding="0" class="dashboard_overDetails">
+    <tr>
+    <td height="25px" ></td>
+  </tr>
+  <tr>
+    <td align="center">(25-41)20:min</td>
+  </tr>
+  
+</table>
+
+                  </div>                    
+         </div>
+         </div>
+        
+         <div class="col10-lg-2 col10-md-12" style="padding:10px;box-sizing:border-box;float:left;">
+         <div class="att-dashboard-stat">
+         <div class="title">Slacking</div>
+         <div class="number" style=""><span>85%</span></div>
+         </div>
+         </div>
+         </div>
+         </div>
+         
+         <div class="col-lg-12" style=" margin-top: 40px">
+     
+        <div class="col-lg-6" >
+        <div class="chart-border">
+<div id="container1" style="min-width: 100%; height: 400px; margin: 0 auto"></div>
+  
+</div>
+        </div>
+        
+        <div class="col-lg-6" >
+  <div class="chart-border">
+<div id="container2" style="min-width: 100%; height: 400px; margin: 0 auto"></div>
+</div>
+        </div>
+        
+    
+         
+         </div>
+
+         <div class="col-lg-12" style="padding-top:20px;">
+        <div class="chart-border">
+        
+        <h3> Attendance Report Table</h3>
+
+
+
+
+<table class="table   table-hover new-td" cellspacing="2" cellpadding="2"  id="miyazaki">
+                 <thead>
+                   <tr  >
+                     <th>Employee Name </th>
+                     <th>Total lateness</th>
+                     <th>Total shortness </th>
+                     <th>occurences for tardiness</th>
+                     <th>Lasteness jsutification</th>
+                    
+                   </tr>
+                 </thead>
+                 <tbody>
+                   <tr data-toggle="collapse" data-target="#accordion1" class="clickable">
+                     <td><strong> Nadeem Bakhash </strong> <span class="caret"></span></td>
+                     <td>80 min</td>
+                     <td>30 min</td>
+                     <td><span>1</span> <span>1</span> </td>
+                     <td> 
+                     29 May
+
+</td>
+                    
+                   </tr>
+
+                    <tr class="tr-none-any">
+            <td colspan="5" class="none-any">
+
+
+                <div id="accordion1" class="collapse">
+                  
+                   <div class="col-lg-12 white_bg removeScroll shadow-collspse" style="padding-top:10px;padding-bottom:10px;">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+            <div class="profile-box col-lg-6 col-md-6 col-sm-6 col-xs-3" >
+              <div class="profile-Pic"> <img src="images/user_img.png" /></div>
+              
+
+          </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+              <table width="100%" border="1" cellspacing="0" cellpadding="0" class="table-profile new-ta-pro">
+                <tr>
+                  <td>
+                    <h4>Nadeem Bakhash</h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Job Title</td>
+                </tr>
+                <tr>
+                  <td>Job Title second</td>
+                </tr>
+                <tr>
+                  <td>
+                   <i class="fa fa-envelope"></i> Massage Mohammed 
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-5  col-md-5 col-sm-12 col-xs-12"  style="padding:0px;margin:0px">
+           <div class="chart-border" style="padding:0px;margin:0px" >
+                <div id="container5" style="min-width: 300px; height: 200px; margin: 0 auto" data-highcharts-chart="2">
+               
+               </div>
+           </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+            <table width="100%"  cellspacing="0" cellpadding="0" class="table-profile new-ta-pro" >
+              <tr>
+                <th scope="row" >punctuality Score</th>
+              
+              </tr>
+              <tr>
+                
+                <td>
+ <div class="col-lg-4 col-md-4 col-sm-12 col-xs-3 ">
+                <div class="circle  ">
+                78%
+              </div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
+<br>
+               <span class="red-f">3%  <span class="caret"></span></span><br>
+              <span>last3 months</span>
+</div>
+                </td>
+              </tr>
+              <tr>
+
+           <td>
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 ">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " >
+           <br><strong>Occurnences of Tardliness </strong>
+ </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 " >
+  <div class="circle-red">
+                1
+ </div>
+              </div>  
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+              <div class="circle-orange">
+               2              </div></div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+               <div class="circle-gray">
+               5              </div> </div>
+
+           </td>
+              </div> 
+              </tr>
+            </table>
+            <div class="F_right">
+            <a  data-toggle="collapse" data-target="#accordion1" class="clickable">colse</a>
+            </div>
+           </div>
+        </div>
+      </div>
+
+            </td>
+        </tr>
+                   <tr  data-toggle="collapse" data-target="#accordion2" class="clickable">
+                     <td><strong>Ali Ahmed </strong> <span class="caret"></span></td>
+                     <td>Thornton</td>
+                     <td>@fat</td>
+                     <td>665555666</td>
+                     <td>
+                  
+                     </td>
+                   
+                   </tr>
+       
+                   <tr  data-toggle="collapse" data-target="#accordion3" class="clickable">
+                     <td><strong>Nayef</strong> <span class="caret"></span></td>
+                     <td>the Bird</td>
+                     <td>@twitter</td>
+                     <td>6655566677</td>
+                     <td></td>
+                    
+                   </tr>
+                     
+                 </tbody>
+               </table>
+
+
+   
+        </div>
+         
+         </div>
+
+         <div class="col-lg-12" style="padding-top:20px;">
+        <div style="height:300px;display: table; width: 100%;" class="chart-border">
+        <h3> Attendance report (Wall chart) Team</h3>
+
+             <div class="col-lg-12 col-md-12 col-sm-12" style="background:#fafafa;margin-bottom:30px">
+         <div class="teamNotificationsTxt">
+         
+         <div style="float:left;" class="teamNotificationsTxt_number"> <img src="images/alart.gif" /></div>
+         <div style="float:left;" class="teamNotificationsTxt_info">
+           <div>Latenesses and 5 shortnesses overall for
+                  
+                  <a href="#"><select name="" style="border:none;" class="selestStyle">
+                    <option>This Month</option>
+                    <option>Last Month</option>
+                  </select></a>
+                  </div>
+             <div>- The highest lateness being 13 minutes by <a href="#">Ahmed Abdullah.</a></div>
+             
+                  <div>- <a href="#">Khalid Ali</a>, <a href="#">Mohammad M</a>. <a href="#">and 3 others</a> were absent Yesterday.</div>
+                
+                  <div>- A total of 1 hour of latenesses combined</div>
+                  <div>This brief will be automatically generated at 1pm everyday.</div>
+  
+
+         </div>
+         </div>
+          <br class="clearfix" />
+        </div>
+            
+       
+            <div class="dt_custom_filter">
+
+                <div class="table_actions row">
+                  
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 results_cont">
+                       
+                        <div class="dropdown">
+
+                            <button class="dropdown_date dropdown-toggle" type="button" id="results"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                <span>Show Results</span>
+                                <span class="">|</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a data-lenght="10">10 Results</a></li>
+                                <li><a data-lenght="20">25 Results</a></li>
+                                <li><a data-lenght="30">50 Results</a></li>
+                                <li><a data-lenght="100">100 Results</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom_filter_cont export_cont">
+                        <div class="dropdown">
+
+                            <button class="dropdown_date dropdown-toggle" type="button" id="exports"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-floppy-o"></i>
+                                Export
+                                <span class="">|</span>
+                                <span class="caret"></span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 custom_filter_cont month_cont">
+                        <div class="dropdown change_attendance_months">
+
+                            <button class="dropdown_date dropdown-toggle"  type="button" id="sattendance_months"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                <span class="text">January 2016</span>
+                                <span class="">|</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a data-value="1">January 2016</a></li>
+                                <li><a data-value="2">February 2016</a></li>
+                                <li><a data-value="3">March 2016</a></li>
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 search_cont">
+                        <input type="text" class="form-control search_dt" placeholder="Search employee"/>
+                    </div>
+                </div>
+                <table class="table event_tbl " id="custom_attendance">
+                    <thead>
+                    <tr>
+                        <th width="25%">&nbsp;</th>
+                        <th width="75%"> <div class="row days_headers">&nbsp;</div></th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td width="25%">
+                            <div class="row">
+                                <div class="col-lg-5 col-xs-5 attendance_img">
+                                    <img src="images/user_img.png"/>
+                                    <span class="punction">87%</span>
+                                </div>
+                                <div class="col-lg-7 col-xs-7 attendance_emp">
+                                    <h2><a href="profile_Details.html">Ahmed Khalid</a></h2>
+                                    <h3>System admin</h3>
+                                    <div class="attendance_map">
+                                        <span class="late_1">1</span>
+                                        <span class="late_2">2</span>
+                                        <span class="late_3">3</span>
+                                        <span class="late_4">0</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td width="75%">
+                            <div class="row days_headers">&nbsp;</div>
+                            <div class="row days_numbers">&nbsp;</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="25%">
+                            <div class="row">
+                                <div class="col-lg-5 col-xs-5 attendance_img">
+                                    <img src="images/user_img.png"/>
+                                    <span class="punction">87%</span>
+                                </div>
+                                <div class="col-lg-7 col-xs-7 attendance_emp">
+                                    <h2><a href="profile_Details.html">Ahmed Khalid</a></h2>
+                                    <h3>System admin</h3>
+                                    <div class="attendance_map">
+                                        <span class="late_1">1</span>
+                                        <span class="late_2">2</span>
+                                        <span class="late_3">3</span>
+                                        <span class="late_4">0</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td width="75%">
+                            <div class="row days_headers">&nbsp;</div>
+                            <div class="row days_numbers">&nbsp;</div>
+                        </td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+         
+         </div>
+         
+         </div>
+         </div>
+         
+      
+
+      
+
+
+         
+         </div>
+
+        
+    </div>
+
+
+</div>
+
+ 
+
+    <script type="text/javascript">
+        var headertext = [],
+headers = document.querySelectorAll("#miyazaki th"),
+tablerows = document.querySelectorAll("#miyazaki th"),
+tablebody = document.querySelector("#miyazaki tbody");
+
+for(var i = 0; i < headers.length; i++) {
+  var current = headers[i];
+  headertext.push(current.textContent.replace(/\r?\n|\r/,""));
+} 
+for (var i = 0, row; row = tablebody.rows[i]; i++) {
+  for (var j = 0, col; col = row.cells[j]; j++) {
+    col.setAttribute("data-th", headertext[j]);
+  } 
+}
+
+        
+    </script>
+
+</body>
+</html>
+ 
